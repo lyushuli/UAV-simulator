@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rfly/UAV/devel/.private/mav_comm/setup.sh

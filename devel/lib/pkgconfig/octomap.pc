@@ -1,0 +1,10 @@
+prefix=/home/rfly/UAV/devel
+libdir=/home/rfly/UAV/devel/lib
+includedir=/home/rfly/UAV/devel/include
+
+Name: octomap
+Description: octomap
+Requires: 
+Version: 1.9.8
+Libs: -L${libdir}  -loctomap -loctomath
+Cflags: -I${includedir} 

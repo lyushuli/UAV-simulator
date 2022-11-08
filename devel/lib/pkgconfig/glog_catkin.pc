@@ -1,0 +1,1 @@
+/home/rfly/UAV/devel/.private/glog_catkin/lib/pkgconfig/glog_catkin.pc

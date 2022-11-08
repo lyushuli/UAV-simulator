@@ -1,0 +1,12 @@
+Symlinking /home/rfly/UAV/devel/./setup.bash
+Symlinking /home/rfly/UAV/devel/./_setup_util.py
+Symlinking /home/rfly/UAV/devel/./setup.zsh
+Symlinking /home/rfly/UAV/devel/./local_setup.sh
+Symlinking /home/rfly/UAV/devel/./env.sh
+Symlinking /home/rfly/UAV/devel/./local_setup.zsh
+Symlinking /home/rfly/UAV/devel/./cmake.lock
+Symlinking /home/rfly/UAV/devel/./local_setup.bash
+Symlinking /home/rfly/UAV/devel/./setup.sh
+Symlinking /home/rfly/UAV/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/rfly/UAV/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/rfly/UAV/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

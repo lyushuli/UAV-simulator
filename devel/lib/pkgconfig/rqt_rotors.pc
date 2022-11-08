@@ -1,0 +1,1 @@
+/home/rfly/UAV/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc

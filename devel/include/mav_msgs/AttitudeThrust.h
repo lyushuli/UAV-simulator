@@ -1,0 +1,1 @@
+/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h

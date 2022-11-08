@@ -1,0 +1,121 @@
+[35m[1mConsolidate compiler generated dependencies of target octomath[0m
+[  5%] Built target octomath
+[35m[1mConsolidate compiler generated dependencies of target octomath-static[0m
+[ 10%] Built target octomath-static
+[35m[1mConsolidate compiler generated dependencies of target octomap[0m
+[ 24%] Built target octomap
+[35m[1mConsolidate compiler generated dependencies of target octomap-static[0m
+[ 37%] Built target octomap-static
+[35m[1mConsolidate compiler generated dependencies of target graph2tree[0m
+[ 40%] Built target graph2tree
+[35m[1mConsolidate compiler generated dependencies of target log2graph[0m
+[ 43%] Built target log2graph
+[35m[1mConsolidate compiler generated dependencies of target binvox2bt[0m
+[ 45%] Built target binvox2bt
+[35m[1mConsolidate compiler generated dependencies of target bt2vrml[0m
+[ 48%] Built target bt2vrml
+[35m[1mConsolidate compiler generated dependencies of target edit_octree[0m
+[ 51%] Built target edit_octree
+[35m[1mConsolidate compiler generated dependencies of target convert_octree[0m
+[ 54%] Built target convert_octree
+[35m[1mConsolidate compiler generated dependencies of target eval_octree_accuracy[0m
+[ 56%] Built target eval_octree_accuracy
+[35m[1mConsolidate compiler generated dependencies of target compare_octrees[0m
+[ 59%] Built target compare_octrees
+[35m[1mConsolidate compiler generated dependencies of target simple_example[0m
+[ 62%] Built target simple_example
+[35m[1mConsolidate compiler generated dependencies of target normals_example[0m
+[ 64%] Built target normals_example
+[35m[1mConsolidate compiler generated dependencies of target intersection_example[0m
+[ 67%] Built target intersection_example
+[35m[1mConsolidate compiler generated dependencies of target octree2pointcloud[0m
+[ 70%] Built target octree2pointcloud
+[35m[1mConsolidate compiler generated dependencies of target test_raycasting[0m
+[ 72%] Built target test_raycasting
+[35m[1mConsolidate compiler generated dependencies of target test_iterators[0m
+[ 75%] Built target test_iterators
+[35m[1mConsolidate compiler generated dependencies of target test_io[0m
+[ 78%] Built target test_io
+[35m[1mConsolidate compiler generated dependencies of target test_changedkeys[0m
+[ 81%] Built target test_changedkeys
+[35m[1mConsolidate compiler generated dependencies of target test_scans[0m
+[ 83%] Built target test_scans
+[35m[1mConsolidate compiler generated dependencies of target test_color_tree[0m
+[ 86%] Built target test_color_tree
+[35m[1mConsolidate compiler generated dependencies of target color_tree_histogram[0m
+[ 89%] Built target color_tree_histogram
+[35m[1mConsolidate compiler generated dependencies of target test_mapcollection[0m
+[ 91%] Built target test_mapcollection
+[35m[1mConsolidate compiler generated dependencies of target test_pruning[0m
+[ 94%] Built target test_pruning
+[35m[1mConsolidate compiler generated dependencies of target test_bbx[0m
+[ 97%] Built target test_bbx
+[35m[1mConsolidate compiler generated dependencies of target unit_tests[0m
+[100%] Built target unit_tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/rfly/UAV/devel/include/octomap/AbstractOcTree.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/AbstractOccupancyOcTree.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/ColorOcTree.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/CountingOcTree.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/MCTables.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/MapCollection.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/MapCollection.hxx
+-- Installing: /home/rfly/UAV/devel/include/octomap/MapNode.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/MapNode.hxx
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTree.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeBase.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeBaseImpl.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeBaseImpl.hxx
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeDataNode.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeDataNode.hxx
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeIterator.hxx
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeKey.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeNode.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OcTreeStamped.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OccupancyOcTreeBase.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/OccupancyOcTreeBase.hxx
+-- Installing: /home/rfly/UAV/devel/include/octomap/Pointcloud.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/ScanGraph.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/octomap.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/octomap_deprecated.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/octomap_timing.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/octomap_types.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/octomap_utils.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/math/Pose6D.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/math/Quaternion.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/math/Utils.h
+-- Installing: /home/rfly/UAV/devel/include/octomap/math/Vector3.h
+-- Installing: /home/rfly/UAV/devel/share/octomap/package.xml
+-- Installing: /home/rfly/UAV/devel/share/ament_index/resource_index/packages/octomap
+-- Installing: /home/rfly/UAV/devel/share/octomap/octomap-config.cmake
+-- Installing: /home/rfly/UAV/devel/share/octomap/octomap-config-version.cmake
+-- Installing: /home/rfly/UAV/devel/lib/pkgconfig/octomap.pc
+-- Installing: /home/rfly/UAV/devel/lib/liboctomath.so.1.9.8
+-- Installing: /home/rfly/UAV/devel/lib/liboctomath.so.1.9
+-- Set runtime path of "/home/rfly/UAV/devel/lib/liboctomath.so.1.9.8" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/lib/liboctomath.so
+-- Installing: /home/rfly/UAV/devel/lib/liboctomath.a
+-- Installing: /home/rfly/UAV/devel/lib/liboctomap.so.1.9.8
+-- Installing: /home/rfly/UAV/devel/lib/liboctomap.so.1.9
+-- Set runtime path of "/home/rfly/UAV/devel/lib/liboctomap.so.1.9.8" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/lib/liboctomap.so
+-- Installing: /home/rfly/UAV/devel/lib/liboctomap.a
+-- Installing: /home/rfly/UAV/devel/share/octomap/octomap-targets.cmake
+-- Installing: /home/rfly/UAV/devel/share/octomap/octomap-targets-release.cmake
+-- Installing: /home/rfly/UAV/devel/bin/graph2tree
+-- Set runtime path of "/home/rfly/UAV/devel/bin/graph2tree" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/bin/log2graph
+-- Set runtime path of "/home/rfly/UAV/devel/bin/log2graph" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/bin/binvox2bt
+-- Set runtime path of "/home/rfly/UAV/devel/bin/binvox2bt" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/bin/bt2vrml
+-- Set runtime path of "/home/rfly/UAV/devel/bin/bt2vrml" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/bin/edit_octree
+-- Set runtime path of "/home/rfly/UAV/devel/bin/edit_octree" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/bin/convert_octree
+-- Set runtime path of "/home/rfly/UAV/devel/bin/convert_octree" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/bin/eval_octree_accuracy
+-- Set runtime path of "/home/rfly/UAV/devel/bin/eval_octree_accuracy" to "/home/rfly/UAV/devel/lib"
+-- Installing: /home/rfly/UAV/devel/bin/compare_octrees
+-- Set runtime path of "/home/rfly/UAV/devel/bin/compare_octrees" to "/home/rfly/UAV/devel/lib"

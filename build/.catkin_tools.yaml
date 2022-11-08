@@ -1,0 +1,6 @@
+devel_space: /home/rfly/UAV/devel
+install: false
+install_space: /home/rfly/UAV/install
+profile: default
+source_space: /home/rfly/UAV/src
+workspace: /home/rfly/UAV

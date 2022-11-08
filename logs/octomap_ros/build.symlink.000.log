@@ -1,0 +1,4 @@
+Symlinking /home/rfly/UAV/devel/lib/liboctomap_ros.so
+Symlinking /home/rfly/UAV/devel/lib/pkgconfig/octomap_ros.pc
+Symlinking /home/rfly/UAV/devel/share/octomap_ros/cmake/octomap_rosConfig-version.cmake
+Symlinking /home/rfly/UAV/devel/share/octomap_ros/cmake/octomap_rosConfig.cmake

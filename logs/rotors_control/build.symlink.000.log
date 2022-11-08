@@ -1,0 +1,7 @@
+Symlinking /home/rfly/UAV/devel/lib/liblee_position_controller.so
+Symlinking /home/rfly/UAV/devel/lib/libroll_pitch_yawrate_thrust_controller.so
+Symlinking /home/rfly/UAV/devel/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
+Symlinking /home/rfly/UAV/devel/lib/rotors_control/lee_position_controller_node
+Symlinking /home/rfly/UAV/devel/lib/pkgconfig/rotors_control.pc
+Symlinking /home/rfly/UAV/devel/share/rotors_control/cmake/rotors_controlConfig-version.cmake
+Symlinking /home/rfly/UAV/devel/share/rotors_control/cmake/rotors_controlConfig.cmake

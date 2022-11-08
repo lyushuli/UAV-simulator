@@ -1,0 +1,1 @@
+/home/rfly/UAV/devel/.private/catkin_tools_prebuild/setup.zsh

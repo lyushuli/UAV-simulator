@@ -1,0 +1,2 @@
+rotors_simulator/rotors_simulator
+/home/rfly/UAV/devel/.private/rotors_simulator/cmake.lock /home/rfly/UAV/devel/./cmake.lock
