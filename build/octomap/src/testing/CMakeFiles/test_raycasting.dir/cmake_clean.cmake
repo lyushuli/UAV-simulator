@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/test_raycasting"
-  "/home/rfly/UAV/src/octomap/octomap/bin/test_raycasting.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/test_raycasting"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/test_raycasting.pdb"
   "CMakeFiles/test_raycasting.dir/test_raycasting.cpp.o"
   "CMakeFiles/test_raycasting.dir/test_raycasting.cpp.o.d"
 )

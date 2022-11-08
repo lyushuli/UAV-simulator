@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rfly/UAV/src/octomap/octovis/include -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtOpenGL -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtXml -I/home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer -I/home/rfly/UAV/build/octovis -isystem /home/rfly/UAV/devel/include
+CXX_INCLUDES = -I/home/rfly/UAV-simulator/src/octomap/octovis/include -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtOpenGL -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtXml -I/home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer -I/home/rfly/UAV-simulator/build/octovis -isystem /home/rfly/UAV-simulator/devel/include
 
 CXX_FLAGS =  -Wall -Wno-error  -O3 -funroll-loops -DNDEBUG -fPIC
 

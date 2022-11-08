@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.pdb"
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so"
   "CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o"
   "CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o.d"
 )

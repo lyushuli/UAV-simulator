@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/mav_system_msgs/lib/python3/dist-packages/mav_system_msgs/msg/_CpuInfo.py
+/home/rfly/UAV-simulator/devel/.private/mav_system_msgs/lib/python3/dist-packages/mav_system_msgs/msg/_CpuInfo.py

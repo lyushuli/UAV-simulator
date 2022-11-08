@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig-version.cmake
+/home/rfly/UAV-simulator/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig-version.cmake

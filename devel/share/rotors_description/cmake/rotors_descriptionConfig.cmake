@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig.cmake
+/home/rfly/UAV-simulator/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig.cmake

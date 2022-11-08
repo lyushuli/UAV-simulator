@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"octomap_ros\" -Doctomap_ros_EXPORTS
 
-CXX_INCLUDES = -isystem /home/rfly/UAV/src/octomap_ros/include -isystem /home/rfly/UAV/devel/.private/octomap_msgs/include -isystem /home/rfly/UAV/src/octomap_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /home/rfly/UAV/devel/include
+CXX_INCLUDES = -isystem /home/rfly/UAV-simulator/src/octomap_ros/include -isystem /home/rfly/UAV-simulator/devel/.private/octomap_msgs/include -isystem /home/rfly/UAV-simulator/src/octomap_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /home/rfly/UAV-simulator/devel/include
 
 CXX_FLAGS = -fPIC
 

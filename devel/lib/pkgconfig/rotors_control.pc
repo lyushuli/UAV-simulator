@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rotors_control/lib/pkgconfig/rotors_control.pc
+/home/rfly/UAV-simulator/devel/.private/rotors_control/lib/pkgconfig/rotors_control.pc

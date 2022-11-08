@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rfly/UAV/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher.cpp" "CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o" "gcc" "CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o.d"
+  "/home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher.cpp" "CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o" "gcc" "CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o.d"
   )
 
 # Targets to which this target links.

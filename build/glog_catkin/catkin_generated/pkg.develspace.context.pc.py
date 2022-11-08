@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/usr/include".split(';') if "/usr/include" !=
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "/usr/lib/x86_64-linux-gnu/libglog.so".split(';') if "/usr/lib/x86_64-linux-gnu/libglog.so" != "" else []
 PROJECT_NAME = "glog_catkin"
-PROJECT_SPACE_DIR = "/home/rfly/UAV/devel/.private/glog_catkin"
+PROJECT_SPACE_DIR = "/home/rfly/UAV-simulator/devel/.private/glog_catkin"
 PROJECT_VERSION = "0.3.5"

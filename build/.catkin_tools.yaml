@@ -1,6 +1,6 @@
-devel_space: /home/rfly/UAV/devel
+devel_space: /home/rfly/UAV-simulator/devel
 install: false
-install_space: /home/rfly/UAV/install
+install_space: /home/rfly/UAV-simulator/install
 profile: default
-source_space: /home/rfly/UAV/src
-workspace: /home/rfly/UAV
+source_space: /home/rfly/UAV-simulator/src
+workspace: /home/rfly/UAV-simulator

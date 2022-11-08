@@ -57,10 +57,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap/octomap
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap/octomap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/octomap
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/octomap
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/rfly/UAV/build/octomap
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/rfly/UAV/build/octomap && /opt/cmake/bin/cpack --config ./CPackConfig.cmake
+	cd /home/rfly/UAV-simulator/build/octomap && /opt/cmake/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/rfly/UAV/build/octomap && /opt/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/rfly/UAV/build/octomap/CPackSourceConfig.cmake
+	cd /home/rfly/UAV-simulator/build/octomap && /opt/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/rfly/UAV-simulator/build/octomap/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rfly/UAV/build/octomap && $(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/octomap/CMakeFiles /home/rfly/UAV/build/octomap/src/testing//CMakeFiles/progress.marks
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/octomap/CMakeFiles 0
+	cd /home/rfly/UAV-simulator/build/octomap && $(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/octomap/CMakeFiles /home/rfly/UAV-simulator/build/octomap/src/testing//CMakeFiles/progress.marks
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/octomap/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/clean
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/preinstall
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/preinstall
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rfly/UAV/build/octomap && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/rfly/UAV-simulator/build/octomap && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_raycasting.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_raycasting.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_raycasting.dir/rule
 .PHONY : src/testing/CMakeFiles/test_raycasting.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ test_raycasting: src/testing/CMakeFiles/test_raycasting.dir/rule
 
 # fast build rule for target.
 test_raycasting/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/build
 .PHONY : test_raycasting/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_iterators.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_iterators.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_iterators.dir/rule
 .PHONY : src/testing/CMakeFiles/test_iterators.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ test_iterators: src/testing/CMakeFiles/test_iterators.dir/rule
 
 # fast build rule for target.
 test_iterators/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/build
 .PHONY : test_iterators/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_io.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_io.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_io.dir/rule
 .PHONY : src/testing/CMakeFiles/test_io.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ test_io: src/testing/CMakeFiles/test_io.dir/rule
 
 # fast build rule for target.
 test_io/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/build
 .PHONY : test_io/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_changedkeys.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_changedkeys.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_changedkeys.dir/rule
 .PHONY : src/testing/CMakeFiles/test_changedkeys.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ test_changedkeys: src/testing/CMakeFiles/test_changedkeys.dir/rule
 
 # fast build rule for target.
 test_changedkeys/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/build
 .PHONY : test_changedkeys/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_scans.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_scans.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_scans.dir/rule
 .PHONY : src/testing/CMakeFiles/test_scans.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ test_scans: src/testing/CMakeFiles/test_scans.dir/rule
 
 # fast build rule for target.
 test_scans/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/build
 .PHONY : test_scans/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_color_tree.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_color_tree.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_color_tree.dir/rule
 .PHONY : src/testing/CMakeFiles/test_color_tree.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ test_color_tree: src/testing/CMakeFiles/test_color_tree.dir/rule
 
 # fast build rule for target.
 test_color_tree/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/build
 .PHONY : test_color_tree/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/color_tree_histogram.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/color_tree_histogram.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/color_tree_histogram.dir/rule
 .PHONY : src/testing/CMakeFiles/color_tree_histogram.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ color_tree_histogram: src/testing/CMakeFiles/color_tree_histogram.dir/rule
 
 # fast build rule for target.
 color_tree_histogram/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/build
 .PHONY : color_tree_histogram/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_mapcollection.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_mapcollection.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_mapcollection.dir/rule
 .PHONY : src/testing/CMakeFiles/test_mapcollection.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ test_mapcollection: src/testing/CMakeFiles/test_mapcollection.dir/rule
 
 # fast build rule for target.
 test_mapcollection/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/build
 .PHONY : test_mapcollection/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_pruning.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_pruning.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_pruning.dir/rule
 .PHONY : src/testing/CMakeFiles/test_pruning.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ test_pruning: src/testing/CMakeFiles/test_pruning.dir/rule
 
 # fast build rule for target.
 test_pruning/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/build
 .PHONY : test_pruning/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/test_bbx.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_bbx.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/test_bbx.dir/rule
 .PHONY : src/testing/CMakeFiles/test_bbx.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ test_bbx: src/testing/CMakeFiles/test_bbx.dir/rule
 
 # fast build rule for target.
 test_bbx/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/build
 .PHONY : test_bbx/fast
 
 # Convenience name for target.
 src/testing/CMakeFiles/unit_tests.dir/rule:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/unit_tests.dir/rule
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/testing/CMakeFiles/unit_tests.dir/rule
 .PHONY : src/testing/CMakeFiles/unit_tests.dir/rule
 
 # Convenience name for target.
@@ -342,7 +342,7 @@ unit_tests: src/testing/CMakeFiles/unit_tests.dir/rule
 
 # fast build rule for target.
 unit_tests/fast:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/build
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/build
 .PHONY : unit_tests/fast
 
 color_tree_histogram.o: color_tree_histogram.cpp.o
@@ -350,7 +350,7 @@ color_tree_histogram.o: color_tree_histogram.cpp.o
 
 # target to build an object file
 color_tree_histogram.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.o
 .PHONY : color_tree_histogram.cpp.o
 
 color_tree_histogram.i: color_tree_histogram.cpp.i
@@ -358,7 +358,7 @@ color_tree_histogram.i: color_tree_histogram.cpp.i
 
 # target to preprocess a source file
 color_tree_histogram.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.i
 .PHONY : color_tree_histogram.cpp.i
 
 color_tree_histogram.s: color_tree_histogram.cpp.s
@@ -366,7 +366,7 @@ color_tree_histogram.s: color_tree_histogram.cpp.s
 
 # target to generate assembly for a file
 color_tree_histogram.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/color_tree_histogram.dir/build.make src/testing/CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.s
 .PHONY : color_tree_histogram.cpp.s
 
 test_bbx.o: test_bbx.cpp.o
@@ -374,7 +374,7 @@ test_bbx.o: test_bbx.cpp.o
 
 # target to build an object file
 test_bbx.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/test_bbx.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/test_bbx.cpp.o
 .PHONY : test_bbx.cpp.o
 
 test_bbx.i: test_bbx.cpp.i
@@ -382,7 +382,7 @@ test_bbx.i: test_bbx.cpp.i
 
 # target to preprocess a source file
 test_bbx.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/test_bbx.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/test_bbx.cpp.i
 .PHONY : test_bbx.cpp.i
 
 test_bbx.s: test_bbx.cpp.s
@@ -390,7 +390,7 @@ test_bbx.s: test_bbx.cpp.s
 
 # target to generate assembly for a file
 test_bbx.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/test_bbx.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_bbx.dir/build.make src/testing/CMakeFiles/test_bbx.dir/test_bbx.cpp.s
 .PHONY : test_bbx.cpp.s
 
 test_changedkeys.o: test_changedkeys.cpp.o
@@ -398,7 +398,7 @@ test_changedkeys.o: test_changedkeys.cpp.o
 
 # target to build an object file
 test_changedkeys.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.o
 .PHONY : test_changedkeys.cpp.o
 
 test_changedkeys.i: test_changedkeys.cpp.i
@@ -406,7 +406,7 @@ test_changedkeys.i: test_changedkeys.cpp.i
 
 # target to preprocess a source file
 test_changedkeys.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.i
 .PHONY : test_changedkeys.cpp.i
 
 test_changedkeys.s: test_changedkeys.cpp.s
@@ -414,7 +414,7 @@ test_changedkeys.s: test_changedkeys.cpp.s
 
 # target to generate assembly for a file
 test_changedkeys.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_changedkeys.dir/build.make src/testing/CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.s
 .PHONY : test_changedkeys.cpp.s
 
 test_color_tree.o: test_color_tree.cpp.o
@@ -422,7 +422,7 @@ test_color_tree.o: test_color_tree.cpp.o
 
 # target to build an object file
 test_color_tree.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/test_color_tree.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/test_color_tree.cpp.o
 .PHONY : test_color_tree.cpp.o
 
 test_color_tree.i: test_color_tree.cpp.i
@@ -430,7 +430,7 @@ test_color_tree.i: test_color_tree.cpp.i
 
 # target to preprocess a source file
 test_color_tree.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/test_color_tree.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/test_color_tree.cpp.i
 .PHONY : test_color_tree.cpp.i
 
 test_color_tree.s: test_color_tree.cpp.s
@@ -438,7 +438,7 @@ test_color_tree.s: test_color_tree.cpp.s
 
 # target to generate assembly for a file
 test_color_tree.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/test_color_tree.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_color_tree.dir/build.make src/testing/CMakeFiles/test_color_tree.dir/test_color_tree.cpp.s
 .PHONY : test_color_tree.cpp.s
 
 test_io.o: test_io.cpp.o
@@ -446,7 +446,7 @@ test_io.o: test_io.cpp.o
 
 # target to build an object file
 test_io.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/test_io.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/test_io.cpp.o
 .PHONY : test_io.cpp.o
 
 test_io.i: test_io.cpp.i
@@ -454,7 +454,7 @@ test_io.i: test_io.cpp.i
 
 # target to preprocess a source file
 test_io.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/test_io.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/test_io.cpp.i
 .PHONY : test_io.cpp.i
 
 test_io.s: test_io.cpp.s
@@ -462,7 +462,7 @@ test_io.s: test_io.cpp.s
 
 # target to generate assembly for a file
 test_io.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/test_io.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_io.dir/build.make src/testing/CMakeFiles/test_io.dir/test_io.cpp.s
 .PHONY : test_io.cpp.s
 
 test_iterators.o: test_iterators.cpp.o
@@ -470,7 +470,7 @@ test_iterators.o: test_iterators.cpp.o
 
 # target to build an object file
 test_iterators.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/test_iterators.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/test_iterators.cpp.o
 .PHONY : test_iterators.cpp.o
 
 test_iterators.i: test_iterators.cpp.i
@@ -478,7 +478,7 @@ test_iterators.i: test_iterators.cpp.i
 
 # target to preprocess a source file
 test_iterators.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/test_iterators.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/test_iterators.cpp.i
 .PHONY : test_iterators.cpp.i
 
 test_iterators.s: test_iterators.cpp.s
@@ -486,7 +486,7 @@ test_iterators.s: test_iterators.cpp.s
 
 # target to generate assembly for a file
 test_iterators.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/test_iterators.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_iterators.dir/build.make src/testing/CMakeFiles/test_iterators.dir/test_iterators.cpp.s
 .PHONY : test_iterators.cpp.s
 
 test_mapcollection.o: test_mapcollection.cpp.o
@@ -494,7 +494,7 @@ test_mapcollection.o: test_mapcollection.cpp.o
 
 # target to build an object file
 test_mapcollection.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/test_mapcollection.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/test_mapcollection.cpp.o
 .PHONY : test_mapcollection.cpp.o
 
 test_mapcollection.i: test_mapcollection.cpp.i
@@ -502,7 +502,7 @@ test_mapcollection.i: test_mapcollection.cpp.i
 
 # target to preprocess a source file
 test_mapcollection.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/test_mapcollection.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/test_mapcollection.cpp.i
 .PHONY : test_mapcollection.cpp.i
 
 test_mapcollection.s: test_mapcollection.cpp.s
@@ -510,7 +510,7 @@ test_mapcollection.s: test_mapcollection.cpp.s
 
 # target to generate assembly for a file
 test_mapcollection.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/test_mapcollection.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_mapcollection.dir/build.make src/testing/CMakeFiles/test_mapcollection.dir/test_mapcollection.cpp.s
 .PHONY : test_mapcollection.cpp.s
 
 test_pruning.o: test_pruning.cpp.o
@@ -518,7 +518,7 @@ test_pruning.o: test_pruning.cpp.o
 
 # target to build an object file
 test_pruning.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/test_pruning.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/test_pruning.cpp.o
 .PHONY : test_pruning.cpp.o
 
 test_pruning.i: test_pruning.cpp.i
@@ -526,7 +526,7 @@ test_pruning.i: test_pruning.cpp.i
 
 # target to preprocess a source file
 test_pruning.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/test_pruning.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/test_pruning.cpp.i
 .PHONY : test_pruning.cpp.i
 
 test_pruning.s: test_pruning.cpp.s
@@ -534,7 +534,7 @@ test_pruning.s: test_pruning.cpp.s
 
 # target to generate assembly for a file
 test_pruning.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/test_pruning.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_pruning.dir/build.make src/testing/CMakeFiles/test_pruning.dir/test_pruning.cpp.s
 .PHONY : test_pruning.cpp.s
 
 test_raycasting.o: test_raycasting.cpp.o
@@ -542,7 +542,7 @@ test_raycasting.o: test_raycasting.cpp.o
 
 # target to build an object file
 test_raycasting.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/test_raycasting.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/test_raycasting.cpp.o
 .PHONY : test_raycasting.cpp.o
 
 test_raycasting.i: test_raycasting.cpp.i
@@ -550,7 +550,7 @@ test_raycasting.i: test_raycasting.cpp.i
 
 # target to preprocess a source file
 test_raycasting.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/test_raycasting.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/test_raycasting.cpp.i
 .PHONY : test_raycasting.cpp.i
 
 test_raycasting.s: test_raycasting.cpp.s
@@ -558,7 +558,7 @@ test_raycasting.s: test_raycasting.cpp.s
 
 # target to generate assembly for a file
 test_raycasting.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/test_raycasting.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_raycasting.dir/build.make src/testing/CMakeFiles/test_raycasting.dir/test_raycasting.cpp.s
 .PHONY : test_raycasting.cpp.s
 
 test_scans.o: test_scans.cpp.o
@@ -566,7 +566,7 @@ test_scans.o: test_scans.cpp.o
 
 # target to build an object file
 test_scans.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/test_scans.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/test_scans.cpp.o
 .PHONY : test_scans.cpp.o
 
 test_scans.i: test_scans.cpp.i
@@ -574,7 +574,7 @@ test_scans.i: test_scans.cpp.i
 
 # target to preprocess a source file
 test_scans.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/test_scans.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/test_scans.cpp.i
 .PHONY : test_scans.cpp.i
 
 test_scans.s: test_scans.cpp.s
@@ -582,7 +582,7 @@ test_scans.s: test_scans.cpp.s
 
 # target to generate assembly for a file
 test_scans.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/test_scans.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/test_scans.dir/build.make src/testing/CMakeFiles/test_scans.dir/test_scans.cpp.s
 .PHONY : test_scans.cpp.s
 
 unit_tests.o: unit_tests.cpp.o
@@ -590,7 +590,7 @@ unit_tests.o: unit_tests.cpp.o
 
 # target to build an object file
 unit_tests.cpp.o:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o
 .PHONY : unit_tests.cpp.o
 
 unit_tests.i: unit_tests.cpp.i
@@ -598,7 +598,7 @@ unit_tests.i: unit_tests.cpp.i
 
 # target to preprocess a source file
 unit_tests.cpp.i:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.i
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.i
 .PHONY : unit_tests.cpp.i
 
 unit_tests.s: unit_tests.cpp.s
@@ -606,7 +606,7 @@ unit_tests.s: unit_tests.cpp.s
 
 # target to generate assembly for a file
 unit_tests.cpp.s:
-	cd /home/rfly/UAV/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.s
+	cd /home/rfly/UAV-simulator/build/octomap && $(MAKE) $(MAKESILENT) -f src/testing/CMakeFiles/unit_tests.dir/build.make src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.s
 .PHONY : unit_tests.cpp.s
 
 # Help Target
@@ -679,6 +679,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rfly/UAV/build/octomap && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/rfly/UAV-simulator/build/octomap && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/rfly/UAV/src/octomap/octovis
-BuildDirectory: /home/rfly/UAV/build/octovis
+SourceDirectory: /home/rfly/UAV-simulator/src/octomap/octovis
+BuildDirectory: /home/rfly/UAV-simulator/build/octovis
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/cmake/bin/cmake" "/home/rfly/UAV/src/octomap/octovis"
+ConfigureCommand: "/opt/cmake/bin/cmake" "/home/rfly/UAV-simulator/src/octomap/octovis"
 MakeCommand: /opt/cmake/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

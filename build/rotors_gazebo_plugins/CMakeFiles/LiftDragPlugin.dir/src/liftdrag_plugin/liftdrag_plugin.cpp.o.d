@@ -1,5 +1,5 @@
 CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: \
- /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/liftdrag_plugin.cpp \
+ /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/liftdrag_plugin.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/algorithm \
  /usr/include/c++/9/utility \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
@@ -2132,7 +2132,7 @@ CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: \
  /usr/include/gazebo-11/gazebo/transport/Publication.hh \
  /usr/include/gazebo-11/gazebo/transport/Subscriber.hh \
  /usr/include/gazebo-11/gazebo/transport/TransportIface.hh \
- /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/liftdrag_plugin.h \
+ /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/liftdrag_plugin.h \
  /usr/include/gazebo-11/gazebo/common/Plugin.hh /usr/include/dlfcn.h \
  /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
  /usr/include/boost/filesystem.hpp \

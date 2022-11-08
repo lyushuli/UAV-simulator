@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap_ros
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/octomap_ros
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/octomap_ros
 
 # Utility rule file for actionlib_msgs_generate_messages_cpp.
 
@@ -78,6 +78,6 @@ CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend:
-	cd /home/rfly/UAV/build/octomap_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/octomap_ros /home/rfly/UAV/src/octomap_ros /home/rfly/UAV/build/octomap_ros /home/rfly/UAV/build/octomap_ros /home/rfly/UAV/build/octomap_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/octomap_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/octomap_ros /home/rfly/UAV-simulator/src/octomap_ros /home/rfly/UAV-simulator/build/octomap_ros /home/rfly/UAV-simulator/build/octomap_ros /home/rfly/UAV-simulator/build/octomap_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 

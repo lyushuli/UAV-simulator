@@ -67,14 +67,14 @@ set(octomap_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(octomap_ros_SOURCE_PREFIX /home/rfly/UAV/src/octomap_ros)
-  set(octomap_ros_DEVEL_PREFIX /home/rfly/UAV/devel/.private/octomap_ros)
+  set(octomap_ros_SOURCE_PREFIX /home/rfly/UAV-simulator/src/octomap_ros)
+  set(octomap_ros_DEVEL_PREFIX /home/rfly/UAV-simulator/devel/.private/octomap_ros)
   set(octomap_ros_INSTALL_PREFIX "")
   set(octomap_ros_PREFIX ${octomap_ros_DEVEL_PREFIX})
 else()
   set(octomap_ros_SOURCE_PREFIX "")
   set(octomap_ros_DEVEL_PREFIX "")
-  set(octomap_ros_INSTALL_PREFIX /home/rfly/UAV/install)
+  set(octomap_ros_INSTALL_PREFIX /home/rfly/UAV-simulator/install)
   set(octomap_ros_PREFIX ${octomap_ros_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(octomap_ros_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;/home/rfly/UAV/devel/include " STREQUAL " ")
+if(NOT "include;/home/rfly/UAV-simulator/devel/include " STREQUAL " ")
   set(octomap_ros_INCLUDE_DIRS "")
-  set(_include_dirs "include;/home/rfly/UAV/devel/include")
+  set(_include_dirs "include;/home/rfly/UAV-simulator/devel/include")
   if(NOT "https://github.com/OctoMap/octomap_ros/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/OctoMap/octomap_ros/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/octomap_ros " STREQUAL " ")
@@ -116,7 +116,7 @@ if(NOT "include;/home/rfly/UAV/devel/include " STREQUAL " ")
   endforeach()
 endif()
 
-set(libraries "octomap_ros;/home/rfly/UAV/devel/lib/liboctomap.so;/home/rfly/UAV/devel/lib/liboctomath.so")
+set(libraries "octomap_ros;/home/rfly/UAV-simulator/devel/lib/liboctomap.so;/home/rfly/UAV-simulator/devel/lib/liboctomath.so")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/rfly/UAV/install/lib;/home/rfly/UAV/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/rfly/UAV-simulator/install/lib;/home/rfly/UAV-simulator/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

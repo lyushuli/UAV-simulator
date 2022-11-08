@@ -1,4 +1,4 @@
-prefix=/home/rfly/UAV/install
+prefix=/home/rfly/UAV-simulator/install
 
 Name: rotors_joy_interface
 Description: Description of rotors_joy_interface

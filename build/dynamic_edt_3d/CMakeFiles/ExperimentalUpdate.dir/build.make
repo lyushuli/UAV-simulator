@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap/dynamicEDT3D
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/dynamic_edt_3d
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/dynamic_edt_3d
 
 # Utility rule file for ExperimentalUpdate.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalUpdate.dir/clean:
 .PHONY : CMakeFiles/ExperimentalUpdate.dir/clean
 
 CMakeFiles/ExperimentalUpdate.dir/depend:
-	cd /home/rfly/UAV/build/dynamic_edt_3d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/octomap/dynamicEDT3D /home/rfly/UAV/src/octomap/dynamicEDT3D /home/rfly/UAV/build/dynamic_edt_3d /home/rfly/UAV/build/dynamic_edt_3d /home/rfly/UAV/build/dynamic_edt_3d/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/dynamic_edt_3d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D /home/rfly/UAV-simulator/build/dynamic_edt_3d /home/rfly/UAV-simulator/build/dynamic_edt_3d /home/rfly/UAV-simulator/build/dynamic_edt_3d/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalUpdate.dir/depend
 

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/rfly/UAV/build/catkin_simple/gtest/googlemock
+# Build directory: /home/rfly/UAV-simulator/build/catkin_simple/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

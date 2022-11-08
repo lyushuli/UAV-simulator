@@ -1,7 +1,7 @@
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: \
- /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStamped.pb.cc \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStamped.pb.cc \
  /usr/include/stdc-predef.h \
- /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStamped.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStamped.pb.h \
  /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -247,8 +247,8 @@ CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: \
  /usr/include/google/protobuf/message.h \
  /usr/include/google/protobuf/descriptor.h \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/9/cassert \
- /home/rfly/UAV/build/rotors_gazebo_plugins/Header.pb.h \
- /home/rfly/UAV/build/rotors_gazebo_plugins/Transform.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Header.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Transform.pb.h \
  /usr/include/gazebo-11/gazebo/msgs/vector3d.pb.h \
  /usr/include/boost/shared_ptr.hpp \
  /usr/include/boost/smart_ptr/shared_ptr.hpp \

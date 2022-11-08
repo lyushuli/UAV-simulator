@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octovis/lib/liboctovis.a"
-  "/home/rfly/UAV/src/octomap/octovis/lib/liboctovis.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/lib/liboctovis.a"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/lib/liboctovis.pdb"
   "CMakeFiles/octovis-static.dir/src/ColorOcTreeDrawer.cpp.o"
   "CMakeFiles/octovis-static.dir/src/ColorOcTreeDrawer.cpp.o.d"
   "CMakeFiles/octovis-static.dir/src/OcTreeDrawer.cpp.o"

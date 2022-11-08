@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/test_io"
-  "/home/rfly/UAV/src/octomap/octomap/bin/test_io.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/test_io"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/test_io.pdb"
   "CMakeFiles/test_io.dir/test_io.cpp.o"
   "CMakeFiles/test_io.dir/test_io.cpp.o.d"
 )

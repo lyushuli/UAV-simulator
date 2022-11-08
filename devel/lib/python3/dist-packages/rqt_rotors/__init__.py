@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rqt_rotors/lib/python3/dist-packages/rqt_rotors/__init__.py
+/home/rfly/UAV-simulator/devel/.private/rqt_rotors/lib/python3/dist-packages/rqt_rotors/__init__.py

@@ -67,14 +67,14 @@ set(glog_catkin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(glog_catkin_SOURCE_PREFIX /home/rfly/UAV/src/glog_catkin)
-  set(glog_catkin_DEVEL_PREFIX /home/rfly/UAV/devel/.private/glog_catkin)
+  set(glog_catkin_SOURCE_PREFIX /home/rfly/UAV-simulator/src/glog_catkin)
+  set(glog_catkin_DEVEL_PREFIX /home/rfly/UAV-simulator/devel/.private/glog_catkin)
   set(glog_catkin_INSTALL_PREFIX "")
   set(glog_catkin_PREFIX ${glog_catkin_DEVEL_PREFIX})
 else()
   set(glog_catkin_SOURCE_PREFIX "")
   set(glog_catkin_DEVEL_PREFIX "")
-  set(glog_catkin_INSTALL_PREFIX /home/rfly/UAV/install)
+  set(glog_catkin_INSTALL_PREFIX /home/rfly/UAV-simulator/install)
   set(glog_catkin_PREFIX ${glog_catkin_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/rfly/UAV/install/lib;/home/rfly/UAV/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/rfly/UAV-simulator/install/lib;/home/rfly/UAV-simulator/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

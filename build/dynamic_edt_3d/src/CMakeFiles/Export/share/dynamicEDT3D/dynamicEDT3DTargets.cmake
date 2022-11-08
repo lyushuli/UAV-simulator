@@ -54,7 +54,7 @@ add_library(dynamicedt3d SHARED IMPORTED)
 
 set_target_properties(dynamicedt3d PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/home/rfly/UAV/devel/lib/liboctomap.so;/home/rfly/UAV/devel/lib/liboctomath.so"
+  INTERFACE_LINK_LIBRARIES "/home/rfly/UAV-simulator/devel/lib/liboctomap.so;/home/rfly/UAV-simulator/devel/lib/liboctomath.so"
 )
 
 # Create imported target dynamicedt3d-static
@@ -62,7 +62,7 @@ add_library(dynamicedt3d-static STATIC IMPORTED)
 
 set_target_properties(dynamicedt3d-static PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/home/rfly/UAV/devel/lib/liboctomap.so;/home/rfly/UAV/devel/lib/liboctomath.so"
+  INTERFACE_LINK_LIBRARIES "/home/rfly/UAV-simulator/devel/lib/liboctomap.so;/home/rfly/UAV-simulator/devel/lib/liboctomath.so"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_control/lib/rotors_control/lee_position_controller_node"
-  "/home/rfly/UAV/devel/.private/rotors_control/lib/rotors_control/lee_position_controller_node.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_control/lib/rotors_control/lee_position_controller_node"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_control/lib/rotors_control/lee_position_controller_node.pdb"
   "CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o"
   "CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o.d"
 )

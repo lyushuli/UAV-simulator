@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake
+/home/rfly/UAV-simulator/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake

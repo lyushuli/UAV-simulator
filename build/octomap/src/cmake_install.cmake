@@ -1,8 +1,8 @@
-# Install script for directory: /home/rfly/UAV/src/octomap/octomap/src
+# Install script for directory: /home/rfly/UAV-simulator/src/octomap/octomap/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV/devel")
+  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV-simulator/devel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -51,12 +51,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHECK
            FILE "${file}"
-           RPATH "/home/rfly/UAV/devel/lib")
+           RPATH "/home/rfly/UAV-simulator/devel/lib")
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/rfly/UAV/src/octomap/octomap/lib/liboctomap.so.1.9.8"
-    "/home/rfly/UAV/src/octomap/octomap/lib/liboctomap.so.1.9"
+    "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomap.so.1.9.8"
+    "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomap.so.1.9"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so.1.9.8"
@@ -66,8 +66,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-           NEW_RPATH "/home/rfly/UAV/devel/lib")
+           OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+           NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
@@ -80,15 +80,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/src/octomap/octomap/lib/liboctomap.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomap.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so")
     endif()
@@ -96,14 +96,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rfly/UAV/src/octomap/octomap/lib/liboctomap.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomap.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/octomap/octomap-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/octomap/octomap-targets.cmake"
-         "/home/rfly/UAV/build/octomap/src/CMakeFiles/Export/share/octomap/octomap-targets.cmake")
+         "/home/rfly/UAV-simulator/build/octomap/src/CMakeFiles/Export/share/octomap/octomap-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/octomap/octomap-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -112,9 +112,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap" TYPE FILE FILES "/home/rfly/UAV/build/octomap/src/CMakeFiles/Export/share/octomap/octomap-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap" TYPE FILE FILES "/home/rfly/UAV-simulator/build/octomap/src/CMakeFiles/Export/share/octomap/octomap-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap" TYPE FILE FILES "/home/rfly/UAV/build/octomap/src/CMakeFiles/Export/share/octomap/octomap-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap" TYPE FILE FILES "/home/rfly/UAV-simulator/build/octomap/src/CMakeFiles/Export/share/octomap/octomap-targets-release.cmake")
   endif()
 endif()
 
@@ -123,15 +123,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/graph2tree")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/graph2tree")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree")
     endif()
@@ -143,15 +143,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/log2graph")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/log2graph")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph")
     endif()
@@ -163,15 +163,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/binvox2bt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/binvox2bt")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt")
     endif()
@@ -183,15 +183,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/bt2vrml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/bt2vrml")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml")
     endif()
@@ -203,15 +203,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/edit_octree")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/edit_octree")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree")
     endif()
@@ -223,15 +223,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/convert_octree")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/convert_octree")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree")
     endif()
@@ -243,15 +243,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/eval_octree_accuracy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/eval_octree_accuracy")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy")
     endif()
@@ -263,15 +263,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV/src/octomap/octomap/bin/compare_octrees")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/src/octomap/octomap/bin/compare_octrees")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/octomap/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/octomap/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees")
     endif()
@@ -280,7 +280,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rfly/UAV/build/octomap/src/testing/cmake_install.cmake")
+  include("/home/rfly/UAV-simulator/build/octomap/src/testing/cmake_install.cmake")
 
 endif()
 

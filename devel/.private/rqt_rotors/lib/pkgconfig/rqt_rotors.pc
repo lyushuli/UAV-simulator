@@ -1,4 +1,4 @@
-prefix=/home/rfly/UAV/devel/.private/rqt_rotors
+prefix=/home/rfly/UAV-simulator/devel/.private/rqt_rotors
 
 Name: rqt_rotors
 Description: Description of rqt_rotors

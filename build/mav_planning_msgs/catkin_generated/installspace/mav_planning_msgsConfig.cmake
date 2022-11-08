@@ -67,14 +67,14 @@ set(mav_planning_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mav_planning_msgs_SOURCE_PREFIX /home/rfly/UAV/src/mav_comm/mav_planning_msgs)
-  set(mav_planning_msgs_DEVEL_PREFIX /home/rfly/UAV/devel/.private/mav_planning_msgs)
+  set(mav_planning_msgs_SOURCE_PREFIX /home/rfly/UAV-simulator/src/mav_comm/mav_planning_msgs)
+  set(mav_planning_msgs_DEVEL_PREFIX /home/rfly/UAV-simulator/devel/.private/mav_planning_msgs)
   set(mav_planning_msgs_INSTALL_PREFIX "")
   set(mav_planning_msgs_PREFIX ${mav_planning_msgs_DEVEL_PREFIX})
 else()
   set(mav_planning_msgs_SOURCE_PREFIX "")
   set(mav_planning_msgs_DEVEL_PREFIX "")
-  set(mav_planning_msgs_INSTALL_PREFIX /home/rfly/UAV/install)
+  set(mav_planning_msgs_INSTALL_PREFIX /home/rfly/UAV-simulator/install)
   set(mav_planning_msgs_PREFIX ${mav_planning_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/rfly/UAV/install/lib;/home/rfly/UAV/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/rfly/UAV-simulator/install/lib;/home/rfly/UAV-simulator/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

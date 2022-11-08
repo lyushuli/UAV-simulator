@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/rotors_gazebo_plugins
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/rotors_gazebo_plugins
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mav_msgs.dir/depend.make
@@ -69,242 +69,242 @@ include CMakeFiles/mav_msgs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mav_msgs.dir/flags.make
 
-Actuators.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
+Actuators.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
 Actuators.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
 
 Actuators.pb.cc: Actuators.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Actuators.pb.cc
 
-CommandMotorSpeed.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
+CommandMotorSpeed.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
 CommandMotorSpeed.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
 
 CommandMotorSpeed.pb.cc: CommandMotorSpeed.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate CommandMotorSpeed.pb.cc
 
-ConnectGazeboToRosTopic.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
+ConnectGazeboToRosTopic.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
 ConnectGazeboToRosTopic.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
 
 ConnectGazeboToRosTopic.pb.cc: ConnectGazeboToRosTopic.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate ConnectGazeboToRosTopic.pb.cc
 
-ConnectRosToGazeboTopic.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
+ConnectRosToGazeboTopic.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
 ConnectRosToGazeboTopic.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
 
 ConnectRosToGazeboTopic.pb.cc: ConnectRosToGazeboTopic.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate ConnectRosToGazeboTopic.pb.cc
 
-Float32.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
+Float32.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
 Float32.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
 
 Float32.pb.cc: Float32.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Float32.pb.cc
 
-FluidPressure.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
+FluidPressure.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
 FluidPressure.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
 
 FluidPressure.pb.cc: FluidPressure.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FluidPressure.pb.cc
 
-Header.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
+Header.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
 Header.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
 
 Header.pb.cc: Header.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Header.pb.cc
 
-Imu.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
+Imu.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
 Imu.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
 
 Imu.pb.cc: Imu.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Imu.pb.cc
 
-JointState.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
+JointState.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
 JointState.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
 
 JointState.pb.cc: JointState.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate JointState.pb.cc
 
-Lidar.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
+Lidar.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
 Lidar.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
 
 Lidar.pb.cc: Lidar.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Lidar.pb.cc
 
-MagneticField.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
+MagneticField.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
 MagneticField.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
 
 MagneticField.pb.cc: MagneticField.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate MagneticField.pb.cc
 
-NavSatFix.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
+NavSatFix.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
 NavSatFix.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
 
 NavSatFix.pb.cc: NavSatFix.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate NavSatFix.pb.cc
 
-Odometry.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
+Odometry.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
 Odometry.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
 
 Odometry.pb.cc: Odometry.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Odometry.pb.cc
 
-OpticalFlow.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
+OpticalFlow.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
 OpticalFlow.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
 
 OpticalFlow.pb.cc: OpticalFlow.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate OpticalFlow.pb.cc
 
-Point.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
+Point.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
 Point.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
 
 Point.pb.cc: Point.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Point.pb.cc
 
-PointStamped.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
+PointStamped.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
 PointStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
 
 PointStamped.pb.cc: PointStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate PointStamped.pb.cc
 
-PoseStamped.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
+PoseStamped.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
 PoseStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
 
 PoseStamped.pb.cc: PoseStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate PoseStamped.pb.cc
 
-PoseWithCovariance.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
+PoseWithCovariance.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
 PoseWithCovariance.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
 
 PoseWithCovariance.pb.cc: PoseWithCovariance.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate PoseWithCovariance.pb.cc
 
-PoseWithCovarianceStamped.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
+PoseWithCovarianceStamped.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
 PoseWithCovarianceStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
 
 PoseWithCovarianceStamped.pb.cc: PoseWithCovarianceStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate PoseWithCovarianceStamped.pb.cc
 
-RollPitchYawrateThrust.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
+RollPitchYawrateThrust.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
 RollPitchYawrateThrust.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
 
 RollPitchYawrateThrust.pb.cc: RollPitchYawrateThrust.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate RollPitchYawrateThrust.pb.cc
 
-Transform.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
+Transform.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
 Transform.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
 
 Transform.pb.cc: Transform.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Transform.pb.cc
 
-TransformStamped.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
+TransformStamped.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
 TransformStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
 
 TransformStamped.pb.cc: TransformStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate TransformStamped.pb.cc
 
-TransformStampedWithFrameIds.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
+TransformStampedWithFrameIds.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
 TransformStampedWithFrameIds.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
 
 TransformStampedWithFrameIds.pb.cc: TransformStampedWithFrameIds.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate TransformStampedWithFrameIds.pb.cc
 
-Twist.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
+Twist.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
 Twist.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
 
 Twist.pb.cc: Twist.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Twist.pb.cc
 
-TwistStamped.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
+TwistStamped.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
 TwistStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
 
 TwistStamped.pb.cc: TwistStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate TwistStamped.pb.cc
 
-TwistWithCovariance.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
+TwistWithCovariance.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
 TwistWithCovariance.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
 
 TwistWithCovariance.pb.cc: TwistWithCovariance.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate TwistWithCovariance.pb.cc
 
-Vector3dStamped.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
+Vector3dStamped.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
 Vector3dStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
 
 Vector3dStamped.pb.cc: Vector3dStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Vector3dStamped.pb.cc
 
-WindSpeed.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
+WindSpeed.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
 WindSpeed.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
 
 WindSpeed.pb.cc: WindSpeed.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate WindSpeed.pb.cc
 
-Wrench.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
+Wrench.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
 Wrench.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
 
 Wrench.pb.cc: Wrench.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Wrench.pb.cc
 
-WrenchStamped.pb.h: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
+WrenchStamped.pb.h: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
 WrenchStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Running cpp protocol buffer compiler on /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto"
-	/usr/bin/protoc --cpp_out /home/rfly/UAV/build/rotors_gazebo_plugins -I /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Running cpp protocol buffer compiler on /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto"
+	/usr/bin/protoc --cpp_out /home/rfly/UAV-simulator/build/rotors_gazebo_plugins -I /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
 
 WrenchStamped.pb.cc: WrenchStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate WrenchStamped.pb.cc
@@ -312,422 +312,422 @@ WrenchStamped.pb.cc: WrenchStamped.pb.h
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o: Actuators.pb.cc
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Actuators.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Actuators.pb.cc
 
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Actuators.pb.cc > CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Actuators.pb.cc > CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Actuators.pb.cc -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Actuators.pb.cc -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o: CommandMotorSpeed.pb.cc
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -MF CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -MF CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
 
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc > CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc > CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o: ConnectGazeboToRosTopic.pb.cc
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -MF CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -MF CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
 
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o: ConnectRosToGazeboTopic.pb.cc
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -MF CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -MF CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
 
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.o: Float32.pb.cc
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/mav_msgs.dir/Float32.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Float32.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Float32.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/mav_msgs.dir/Float32.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Float32.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Float32.pb.cc
 
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Float32.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Float32.pb.cc > CMakeFiles/mav_msgs.dir/Float32.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Float32.pb.cc > CMakeFiles/mav_msgs.dir/Float32.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Float32.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Float32.pb.cc -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Float32.pb.cc -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o: FluidPressure.pb.cc
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -MF CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/FluidPressure.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -MF CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/FluidPressure.pb.cc
 
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/FluidPressure.pb.cc > CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/FluidPressure.pb.cc > CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/FluidPressure.pb.cc -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/FluidPressure.pb.cc -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Header.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Header.pb.cc.o: Header.pb.cc
 CMakeFiles/mav_msgs.dir/Header.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/mav_msgs.dir/Header.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Header.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Header.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Header.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Header.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/mav_msgs.dir/Header.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Header.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Header.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Header.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Header.pb.cc
 
 CMakeFiles/mav_msgs.dir/Header.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Header.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Header.pb.cc > CMakeFiles/mav_msgs.dir/Header.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Header.pb.cc > CMakeFiles/mav_msgs.dir/Header.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Header.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Header.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Header.pb.cc -o CMakeFiles/mav_msgs.dir/Header.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Header.pb.cc -o CMakeFiles/mav_msgs.dir/Header.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.o: Imu.pb.cc
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/mav_msgs.dir/Imu.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Imu.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Imu.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/mav_msgs.dir/Imu.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Imu.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Imu.pb.cc
 
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Imu.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Imu.pb.cc > CMakeFiles/mav_msgs.dir/Imu.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Imu.pb.cc > CMakeFiles/mav_msgs.dir/Imu.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Imu.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Imu.pb.cc -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Imu.pb.cc -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.o: JointState.pb.cc
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/mav_msgs.dir/JointState.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -MF CMakeFiles/mav_msgs.dir/JointState.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/JointState.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/mav_msgs.dir/JointState.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -MF CMakeFiles/mav_msgs.dir/JointState.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/JointState.pb.cc
 
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/JointState.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/JointState.pb.cc > CMakeFiles/mav_msgs.dir/JointState.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/JointState.pb.cc > CMakeFiles/mav_msgs.dir/JointState.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/JointState.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/JointState.pb.cc -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/JointState.pb.cc -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o: Lidar.pb.cc
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Lidar.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Lidar.pb.cc
 
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Lidar.pb.cc > CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Lidar.pb.cc > CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Lidar.pb.cc -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Lidar.pb.cc -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o: MagneticField.pb.cc
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -MF CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/MagneticField.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -MF CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/MagneticField.pb.cc
 
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/MagneticField.pb.cc > CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/MagneticField.pb.cc > CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/MagneticField.pb.cc -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/MagneticField.pb.cc -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o: NavSatFix.pb.cc
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -MF CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/NavSatFix.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -MF CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/NavSatFix.pb.cc
 
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/NavSatFix.pb.cc > CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/NavSatFix.pb.cc > CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/NavSatFix.pb.cc -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/NavSatFix.pb.cc -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o: Odometry.pb.cc
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Odometry.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Odometry.pb.cc
 
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Odometry.pb.cc > CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Odometry.pb.cc > CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Odometry.pb.cc -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Odometry.pb.cc -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o: OpticalFlow.pb.cc
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -MF CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/OpticalFlow.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -MF CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/OpticalFlow.pb.cc
 
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/OpticalFlow.pb.cc > CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/OpticalFlow.pb.cc > CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/OpticalFlow.pb.cc -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/OpticalFlow.pb.cc -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Point.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Point.pb.cc.o: Point.pb.cc
 CMakeFiles/mav_msgs.dir/Point.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/mav_msgs.dir/Point.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Point.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Point.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Point.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Point.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/mav_msgs.dir/Point.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Point.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Point.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Point.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Point.pb.cc
 
 CMakeFiles/mav_msgs.dir/Point.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Point.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Point.pb.cc > CMakeFiles/mav_msgs.dir/Point.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Point.pb.cc > CMakeFiles/mav_msgs.dir/Point.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Point.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Point.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Point.pb.cc -o CMakeFiles/mav_msgs.dir/Point.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Point.pb.cc -o CMakeFiles/mav_msgs.dir/Point.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: PointStamped.pb.cc
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/PointStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PointStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/PointStamped.pb.cc > CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PointStamped.pb.cc > CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/PointStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PointStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: PoseStamped.pb.cc
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/PoseStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/PoseStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/PoseStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o: PoseWithCovariance.pb.cc
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
 
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o: PoseWithCovarianceStamped.pb.cc
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o: RollPitchYawrateThrust.pb.cc
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -MF CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -MF CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
 
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc > CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc > CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.o: Transform.pb.cc
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/mav_msgs.dir/Transform.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Transform.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Transform.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/mav_msgs.dir/Transform.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Transform.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Transform.pb.cc
 
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Transform.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Transform.pb.cc > CMakeFiles/mav_msgs.dir/Transform.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Transform.pb.cc > CMakeFiles/mav_msgs.dir/Transform.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Transform.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Transform.pb.cc -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Transform.pb.cc -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: TransformStamped.pb.cc
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStamped.pb.cc > CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStamped.pb.cc > CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o: TransformStampedWithFrameIds.pb.cc
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
 
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc > CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc > CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: Twist.pb.cc
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/mav_msgs.dir/Twist.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Twist.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Twist.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/mav_msgs.dir/Twist.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Twist.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Twist.pb.cc
 
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Twist.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Twist.pb.cc > CMakeFiles/mav_msgs.dir/Twist.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Twist.pb.cc > CMakeFiles/mav_msgs.dir/Twist.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Twist.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Twist.pb.cc -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Twist.pb.cc -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o: TwistStamped.pb.cc
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/TwistStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TwistStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/TwistStamped.pb.cc > CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TwistStamped.pb.cc > CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/TwistStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TwistStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o: TwistWithCovariance.pb.cc
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -MF CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
 
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o: Vector3dStamped.pb.cc
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc > CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc > CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o: WindSpeed.pb.cc
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -MF CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/WindSpeed.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -MF CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/WindSpeed.pb.cc
 
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/WindSpeed.pb.cc > CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/WindSpeed.pb.cc > CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/WindSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/WindSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o: Wrench.pb.cc
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/Wrench.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -MF CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Wrench.pb.cc
 
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/Wrench.pb.cc > CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Wrench.pb.cc > CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/Wrench.pb.cc -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Wrench.pb.cc -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o: WrenchStamped.pb.cc
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -c /home/rfly/UAV/build/rotors_gazebo_plugins/WrenchStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -MF CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o.d -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -c /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/WrenchStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV/build/rotors_gazebo_plugins/WrenchStamped.pb.cc > CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/WrenchStamped.pb.cc > CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV/build/rotors_gazebo_plugins/WrenchStamped.pb.cc -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/WrenchStamped.pb.cc -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s
 
 # Object files for target mav_msgs
 mav_msgs_OBJECTS = \
@@ -798,7 +798,7 @@ libmav_msgs.so: CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o
 libmav_msgs.so: CMakeFiles/mav_msgs.dir/build.make
 libmav_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 libmav_msgs.so: CMakeFiles/mav_msgs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX shared library libmav_msgs.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX shared library libmav_msgs.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mav_msgs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -869,6 +869,6 @@ CMakeFiles/mav_msgs.dir/depend: Wrench.pb.cc
 CMakeFiles/mav_msgs.dir/depend: Wrench.pb.h
 CMakeFiles/mav_msgs.dir/depend: WrenchStamped.pb.cc
 CMakeFiles/mav_msgs.dir/depend: WrenchStamped.pb.h
-	cd /home/rfly/UAV/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV/build/rotors_gazebo_plugins /home/rfly/UAV/build/rotors_gazebo_plugins /home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV-simulator/build/rotors_gazebo_plugins /home/rfly/UAV-simulator/build/rotors_gazebo_plugins /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mav_msgs.dir/depend
 

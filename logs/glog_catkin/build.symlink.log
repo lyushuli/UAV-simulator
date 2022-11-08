@@ -1,3 +1,3 @@
-Symlinking /home/rfly/UAV/devel/lib/pkgconfig/glog_catkin.pc
-Symlinking /home/rfly/UAV/devel/share/glog_catkin/cmake/glog_catkinConfig.cmake
-Symlinking /home/rfly/UAV/devel/share/glog_catkin/cmake/glog_catkinConfig-version.cmake
+Symlinking /home/rfly/UAV-simulator/devel/lib/pkgconfig/glog_catkin.pc
+Symlinking /home/rfly/UAV-simulator/devel/share/glog_catkin/cmake/glog_catkinConfig.cmake
+Symlinking /home/rfly/UAV-simulator/devel/share/glog_catkin/cmake/glog_catkinConfig-version.cmake

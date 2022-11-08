@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/octomap_msgs/include/octomap_msgs/BoundingBoxQuery.h"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/include/octomap_msgs/GetOctomap.h"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/include/octomap_msgs/Octomap.h"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/include/octomap_msgs/OctomapWithPose.h"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/include/octomap_msgs/BoundingBoxQuery.h"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/include/octomap_msgs/GetOctomap.h"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/include/octomap_msgs/Octomap.h"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/include/octomap_msgs/OctomapWithPose.h"
   "CMakeFiles/octomap_msgs_generate_messages_cpp"
 )
 

@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/mav_comm/mav_planning_msgs
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/mav_comm/mav_planning_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/mav_planning_msgs
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/mav_planning_msgs
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -78,6 +78,6 @@ CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/rfly/UAV/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/mav_comm/mav_planning_msgs /home/rfly/UAV/src/mav_comm/mav_planning_msgs /home/rfly/UAV/build/mav_planning_msgs /home/rfly/UAV/build/mav_planning_msgs /home/rfly/UAV/build/mav_planning_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/mav_comm/mav_planning_msgs /home/rfly/UAV-simulator/src/mav_comm/mav_planning_msgs /home/rfly/UAV-simulator/build/mav_planning_msgs /home/rfly/UAV-simulator/build/mav_planning_msgs /home/rfly/UAV-simulator/build/mav_planning_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

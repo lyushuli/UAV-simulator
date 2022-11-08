@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap/octovis
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap/octovis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/octovis
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/octovis
 
 # Utility rule file for ContinuousSubmit.
 
@@ -82,6 +82,6 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 CMakeFiles/ContinuousSubmit.dir/depend:
-	cd /home/rfly/UAV/build/octovis && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/octomap/octovis /home/rfly/UAV/src/octomap/octovis /home/rfly/UAV/build/octovis /home/rfly/UAV/build/octovis /home/rfly/UAV/build/octovis/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/octovis && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/octomap/octovis /home/rfly/UAV-simulator/src/octomap/octovis /home/rfly/UAV-simulator/build/octovis /home/rfly/UAV-simulator/build/octovis /home/rfly/UAV-simulator/build/octovis/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousSubmit.dir/depend
 

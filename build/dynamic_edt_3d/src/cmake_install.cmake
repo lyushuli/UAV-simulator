@@ -1,8 +1,8 @@
-# Install script for directory: /home/rfly/UAV/src/octomap/dynamicEDT3D/src
+# Install script for directory: /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV/devel")
+  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV-simulator/devel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -51,12 +51,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHECK
            FILE "${file}"
-           RPATH "/home/rfly/UAV/devel/lib")
+           RPATH "/home/rfly/UAV-simulator/devel/lib")
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.so.1.9.8"
-    "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.so.1.9"
+    "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.so.1.9.8"
+    "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.so.1.9"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamicedt3d.so.1.9.8"
@@ -66,8 +66,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib:/home/rfly/UAV/devel/lib:"
-           NEW_RPATH "/home/rfly/UAV/devel/lib")
+           OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib:/home/rfly/UAV-simulator/devel/lib:"
+           NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
@@ -80,15 +80,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamicedt3d.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamicedt3d.so"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamicedt3d.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamicedt3d.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamicedt3d.so"
-         OLD_RPATH "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib:/home/rfly/UAV/devel/lib:"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib:/home/rfly/UAV-simulator/devel/lib:"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamicedt3d.so")
     endif()
@@ -96,14 +96,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/dynamicEDT3D/dynamicEDT3DTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/dynamicEDT3D/dynamicEDT3DTargets.cmake"
-         "/home/rfly/UAV/build/dynamic_edt_3d/src/CMakeFiles/Export/share/dynamicEDT3D/dynamicEDT3DTargets.cmake")
+         "/home/rfly/UAV-simulator/build/dynamic_edt_3d/src/CMakeFiles/Export/share/dynamicEDT3D/dynamicEDT3DTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/dynamicEDT3D/dynamicEDT3DTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -112,15 +112,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamicEDT3D" TYPE FILE FILES "/home/rfly/UAV/build/dynamic_edt_3d/src/CMakeFiles/Export/share/dynamicEDT3D/dynamicEDT3DTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamicEDT3D" TYPE FILE FILES "/home/rfly/UAV-simulator/build/dynamic_edt_3d/src/CMakeFiles/Export/share/dynamicEDT3D/dynamicEDT3DTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamicEDT3D" TYPE FILE FILES "/home/rfly/UAV/build/dynamic_edt_3d/src/CMakeFiles/Export/share/dynamicEDT3D/dynamicEDT3DTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamicEDT3D" TYPE FILE FILES "/home/rfly/UAV-simulator/build/dynamic_edt_3d/src/CMakeFiles/Export/share/dynamicEDT3D/dynamicEDT3DTargets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rfly/UAV/build/dynamic_edt_3d/src/examples/cmake_install.cmake")
+  include("/home/rfly/UAV-simulator/build/dynamic_edt_3d/src/examples/cmake_install.cmake")
 
 endif()
 

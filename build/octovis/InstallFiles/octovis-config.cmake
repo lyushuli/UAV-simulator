@@ -38,12 +38,12 @@ set(OCTOVIS_MINOR_VERSION "9")
 set(OCTOVIS_PATCH_VERSION "8")
 set(OCTOVIS_VERSION "1.9.8")
 
-set_and_check(OCTOVIS_INCLUDE_DIRS "${PACKAGE_PREFIX_DIR}/include" "/home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer")
+set_and_check(OCTOVIS_INCLUDE_DIRS "${PACKAGE_PREFIX_DIR}/include" "/home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer")
 set_and_check(OCTOVIS_LIBRARY_DIRS "${PACKAGE_PREFIX_DIR}/lib" "")
 
 # Set library names as absolute paths:
 set(OCTOVIS_LIBRARIES
-  "/home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so"
   "Qt5::Core;Qt5::Gui;Qt5::OpenGL;Qt5::Widgets;Qt5::Xml;/usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so"
   "${PACKAGE_PREFIX_DIR}/lib/liboctovis.so"
 )

@@ -1,8 +1,8 @@
-# Install script for directory: /home/rfly/UAV/src/octomap/octomap/src/math
+# Install script for directory: /home/rfly/UAV-simulator/src/octomap/octomap/src/math
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV/devel")
+  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV-simulator/devel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -51,12 +51,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHECK
            FILE "${file}"
-           RPATH "/home/rfly/UAV/devel/lib")
+           RPATH "/home/rfly/UAV-simulator/devel/lib")
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.so.1.9.8"
-    "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.so.1.9"
+    "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.so.1.9.8"
+    "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.so.1.9"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so.1.9.8"
@@ -66,8 +66,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "::::::::::::::::::::::::"
-           NEW_RPATH "/home/rfly/UAV/devel/lib")
+           OLD_RPATH "::::::::::::::::::::::::::::::::::"
+           NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
@@ -80,15 +80,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so"
-         RPATH "/home/rfly/UAV/devel/lib")
+         RPATH "/home/rfly/UAV-simulator/devel/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so"
-         OLD_RPATH "::::::::::::::::::::::::"
-         NEW_RPATH "/home/rfly/UAV/devel/lib")
+         OLD_RPATH "::::::::::::::::::::::::::::::::::"
+         NEW_RPATH "/home/rfly/UAV-simulator/devel/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so")
     endif()
@@ -96,6 +96,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.a")
 endif()
 

@@ -7,7 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/rfly/UAV/devel/.private/glog_catkin:$CMAKE_PREFIX_PATH"
-export PWD='/home/rfly/UAV/build/glog_catkin'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/rfly/UAV/devel/.private/glog_catkin/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/rfly/UAV/src/glog_catkin:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/rfly/UAV-simulator/devel/.private/glog_catkin:$CMAKE_PREFIX_PATH"
+export PATH="/home/rfly/UAV-simulator/devel/bin:$PATH"
+export PWD='/home/rfly/UAV-simulator/build/glog_catkin'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/rfly/UAV-simulator/devel/.private/glog_catkin/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/rfly/UAV-simulator/src/glog_catkin:$ROS_PACKAGE_PATH"

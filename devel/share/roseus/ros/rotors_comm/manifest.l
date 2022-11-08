@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/manifest.l
+/home/rfly/UAV-simulator/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/manifest.l

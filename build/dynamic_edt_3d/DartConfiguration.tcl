@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/rfly/UAV/src/octomap/dynamicEDT3D
-BuildDirectory: /home/rfly/UAV/build/dynamic_edt_3d
+SourceDirectory: /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D
+BuildDirectory: /home/rfly/UAV-simulator/build/dynamic_edt_3d
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/cmake/bin/cmake" "/home/rfly/UAV/src/octomap/dynamicEDT3D"
+ConfigureCommand: "/opt/cmake/bin/cmake" "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D"
 MakeCommand: /opt/cmake/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

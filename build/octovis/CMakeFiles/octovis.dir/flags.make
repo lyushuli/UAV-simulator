@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
 
-CXX_INCLUDES = -I/home/rfly/UAV/src/octomap/octovis/include -I/home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer -I/home/rfly/UAV/build/octovis -isystem /home/rfly/UAV/devel/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml
+CXX_INCLUDES = -I/home/rfly/UAV-simulator/src/octomap/octovis/include -I/home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer -I/home/rfly/UAV-simulator/build/octovis -isystem /home/rfly/UAV-simulator/devel/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml
 
 CXX_FLAGS =  -Wall -Wno-error  -O3 -funroll-loops -DNDEBUG -fPIE -fPIC
 

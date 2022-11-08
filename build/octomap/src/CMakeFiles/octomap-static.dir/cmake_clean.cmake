@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/lib/liboctomap.a"
-  "/home/rfly/UAV/src/octomap/octomap/lib/liboctomap.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomap.a"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomap.pdb"
   "CMakeFiles/octomap-static.dir/AbstractOcTree.cpp.o"
   "CMakeFiles/octomap-static.dir/AbstractOcTree.cpp.o.d"
   "CMakeFiles/octomap-static.dir/AbstractOccupancyOcTree.cpp.o"

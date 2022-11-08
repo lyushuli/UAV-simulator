@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a"
-  "/home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a"
+  "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.pdb"
   "CMakeFiles/dynamicedt3d-static.dir/dynamicEDT3D.cpp.o"
   "CMakeFiles/dynamicedt3d-static.dir/dynamicEDT3D.cpp.o.d"
 )

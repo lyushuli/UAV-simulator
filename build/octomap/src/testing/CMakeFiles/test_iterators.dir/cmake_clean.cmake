@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/test_iterators"
-  "/home/rfly/UAV/src/octomap/octomap/bin/test_iterators.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/test_iterators"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/test_iterators.pdb"
   "CMakeFiles/test_iterators.dir/test_iterators.cpp.o"
   "CMakeFiles/test_iterators.dir/test_iterators.cpp.o.d"
 )

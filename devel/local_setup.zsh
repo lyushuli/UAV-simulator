@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/catkin_tools_prebuild/local_setup.zsh
+/home/rfly/UAV-simulator/devel/.private/catkin_tools_prebuild/local_setup.zsh

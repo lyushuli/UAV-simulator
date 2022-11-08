@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.pdb"
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so"
   "CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o"
   "CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o.d"
 )

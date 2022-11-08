@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.pdb"
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so"
   "CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o"
   "CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o.d"
 )

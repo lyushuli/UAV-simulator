@@ -1,8 +1,8 @@
-# Install script for directory: /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins
+# Install script for directory: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV-simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -54,98 +54,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/_setup_util.py")
+   "/home/rfly/UAV-simulator/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE PROGRAM FILES "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE PROGRAM FILES "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/env.sh")
+   "/home/rfly/UAV-simulator/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE PROGRAM FILES "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE PROGRAM FILES "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/setup.bash;/home/rfly/UAV/install/local_setup.bash")
+   "/home/rfly/UAV-simulator/install/setup.bash;/home/rfly/UAV-simulator/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash"
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash"
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/setup.sh;/home/rfly/UAV/install/local_setup.sh")
+   "/home/rfly/UAV-simulator/install/setup.sh;/home/rfly/UAV-simulator/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh"
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh"
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/setup.zsh;/home/rfly/UAV/install/local_setup.zsh")
+   "/home/rfly/UAV-simulator/install/setup.zsh;/home/rfly/UAV-simulator/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh"
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh"
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/.rosinstall")
+   "/home/rfly/UAV-simulator/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins/cmake" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
-    "/home/rfly/UAV/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
+    "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -155,12 +155,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_bag_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_bag_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
@@ -178,12 +178,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
@@ -201,12 +201,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
@@ -224,12 +224,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_fw_dynamics_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_fw_dynamics_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
@@ -247,12 +247,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
@@ -270,12 +270,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_imu_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_imu_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
@@ -293,12 +293,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_noisydepth_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_noisydepth_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so")
@@ -316,12 +316,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
@@ -339,12 +339,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
@@ -362,12 +362,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
@@ -385,12 +385,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_multirotor_base_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_multirotor_base_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
@@ -408,12 +408,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
@@ -431,12 +431,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
@@ -454,12 +454,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
@@ -477,12 +477,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_wind_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_wind_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
@@ -500,12 +500,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV/devel/.private/octomap_ros/lib:/home/rfly/UAV/devel/lib:/home/rfly/UAV/devel/.private/rotors_control/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/rfly/UAV-simulator/build/rotors_gazebo_plugins:/opt/ros/noetic/lib:/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib:/home/rfly/UAV-simulator/devel/lib:/home/rfly/UAV-simulator/devel/.private/rotors_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
@@ -518,7 +518,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rfly/UAV/build/rotors_gazebo_plugins/gtest/cmake_install.cmake")
+  include("/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/gtest/cmake_install.cmake")
 
 endif()
 
@@ -530,5 +530,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rfly/UAV/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rfly/UAV-simulator/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octovis/bin/octovis"
-  "/home/rfly/UAV/src/octomap/octovis/bin/octovis.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/bin/octovis"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/bin/octovis.pdb"
   "CMakeFiles/octovis.dir/include/octovis/moc_CameraFollowMode.cpp.o"
   "CMakeFiles/octovis.dir/include/octovis/moc_CameraFollowMode.cpp.o.d"
   "CMakeFiles/octovis.dir/include/octovis/moc_ViewerGui.cpp.o"

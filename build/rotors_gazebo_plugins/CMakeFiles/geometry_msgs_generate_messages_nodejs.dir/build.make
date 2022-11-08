@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/rotors_gazebo_plugins
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/rotors_gazebo_plugins
 
 # Utility rule file for geometry_msgs_generate_messages_nodejs.
 
@@ -78,6 +78,6 @@ CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/rfly/UAV/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV/build/rotors_gazebo_plugins /home/rfly/UAV/build/rotors_gazebo_plugins /home/rfly/UAV/build/rotors_gazebo_plugins/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV-simulator/src/rotors_simulator/rotors_gazebo_plugins /home/rfly/UAV-simulator/build/rotors_gazebo_plugins /home/rfly/UAV-simulator/build/rotors_gazebo_plugins /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 

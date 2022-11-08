@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/msg/Octomap.lisp"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/msg/OctomapWithPose.lisp"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/srv/BoundingBoxQuery.lisp"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/srv/GetOctomap.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/msg/Octomap.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/msg/OctomapWithPose.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/srv/BoundingBoxQuery.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/common-lisp/ros/octomap_msgs/srv/GetOctomap.lisp"
   "CMakeFiles/octomap_msgs_generate_messages_lisp"
 )
 

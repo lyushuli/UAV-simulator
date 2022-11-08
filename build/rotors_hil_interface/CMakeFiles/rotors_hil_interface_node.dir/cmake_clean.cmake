@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node"
-  "/home/rfly/UAV/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node.pdb"
   "CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o"
   "CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o.d"
 )

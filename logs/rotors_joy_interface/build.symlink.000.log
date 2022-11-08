@@ -1,4 +1,4 @@
-Symlinking /home/rfly/UAV/devel/lib/pkgconfig/rotors_joy_interface.pc
-Symlinking /home/rfly/UAV/devel/lib/rotors_joy_interface/rotors_joy_interface
-Symlinking /home/rfly/UAV/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
-Symlinking /home/rfly/UAV/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake
+Symlinking /home/rfly/UAV-simulator/devel/lib/pkgconfig/rotors_joy_interface.pc
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_joy_interface/rotors_joy_interface
+Symlinking /home/rfly/UAV-simulator/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
+Symlinking /home/rfly/UAV-simulator/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake

@@ -1,4 +1,4 @@
-prefix=/home/rfly/UAV/devel/.private/rotors_gazebo
+prefix=/home/rfly/UAV-simulator/devel/.private/rotors_gazebo
 
 Name: rotors_gazebo
 Description: Description of rotors_gazebo

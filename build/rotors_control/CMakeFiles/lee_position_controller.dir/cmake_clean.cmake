@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_control/lib/liblee_position_controller.pdb"
-  "/home/rfly/UAV/devel/.private/rotors_control/lib/liblee_position_controller.so"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_control/lib/liblee_position_controller.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_control/lib/liblee_position_controller.so"
   "CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o"
   "CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o.d"
 )

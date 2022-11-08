@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/log2graph"
-  "/home/rfly/UAV/src/octomap/octomap/bin/log2graph.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/log2graph"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/log2graph.pdb"
   "CMakeFiles/log2graph.dir/log2graph.cpp.o"
   "CMakeFiles/log2graph.dir/log2graph.cpp.o.d"
 )

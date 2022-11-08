@@ -61,7 +61,7 @@ add_library(octovis-static STATIC IMPORTED)
 
 set_target_properties(octovis-static PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so;/home/rfly/UAV/devel/lib/liboctomap.so;/home/rfly/UAV/devel/lib/liboctomath.so;/home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so;/home/rfly/UAV-simulator/devel/lib/liboctomap.so;/home/rfly/UAV-simulator/devel/lib/liboctomath.so;/home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so"
 )
 
 # Create imported target octovis-shared
@@ -69,7 +69,7 @@ add_library(octovis-shared SHARED IMPORTED)
 
 set_target_properties(octovis-shared PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so;/home/rfly/UAV/devel/lib/liboctomap.so;/home/rfly/UAV/devel/lib/liboctomath.so;/home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so;/home/rfly/UAV-simulator/devel/lib/liboctomap.so;/home/rfly/UAV-simulator/devel/lib/liboctomath.so;/home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rfly/UAV/src/rotors_simulator/rotors_joy_interface/src/joy.cpp" "CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o" "gcc" "CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o.d"
+  "/home/rfly/UAV-simulator/src/rotors_simulator/rotors_joy_interface/src/joy.cpp" "CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o" "gcc" "CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o.d"
   )
 
 # Targets to which this target links.

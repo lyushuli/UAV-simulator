@@ -10,21 +10,21 @@
 [100%] Built target exampleEDTOctomapStamped
 [36mInstall the project...[0m
 -- Install configuration: "Release"
--- Installing: /home/rfly/UAV/devel/include/dynamicEDT3D/bucketedqueue.h
--- Installing: /home/rfly/UAV/devel/include/dynamicEDT3D/bucketedqueue.hxx
--- Installing: /home/rfly/UAV/devel/include/dynamicEDT3D/dynamicEDT3D.h
--- Installing: /home/rfly/UAV/devel/include/dynamicEDT3D/dynamicEDTOctomap.h
--- Installing: /home/rfly/UAV/devel/include/dynamicEDT3D/dynamicEDTOctomap.hxx
--- Installing: /home/rfly/UAV/devel/include/dynamicEDT3D/point.h
--- Installing: /home/rfly/UAV/devel/share/dynamic_edt_3d/package.xml
--- Installing: /home/rfly/UAV/devel/share/ament_index/resource_index/packages/dynamicEDT3D
--- Installing: /home/rfly/UAV/devel/share/dynamicEDT3D/dynamicEDT3DConfig.cmake
--- Installing: /home/rfly/UAV/devel/share/dynamicEDT3D/dynamicEDT3DConfig-version.cmake
--- Installing: /home/rfly/UAV/devel/lib/pkgconfig/dynamicEDT3D.pc
--- Installing: /home/rfly/UAV/devel/lib/libdynamicedt3d.so.1.9.8
--- Installing: /home/rfly/UAV/devel/lib/libdynamicedt3d.so.1.9
--- Set runtime path of "/home/rfly/UAV/devel/lib/libdynamicedt3d.so.1.9.8" to "/home/rfly/UAV/devel/lib"
--- Installing: /home/rfly/UAV/devel/lib/libdynamicedt3d.so
--- Installing: /home/rfly/UAV/devel/lib/libdynamicedt3d.a
--- Installing: /home/rfly/UAV/devel/share/dynamicEDT3D/dynamicEDT3DTargets.cmake
--- Installing: /home/rfly/UAV/devel/share/dynamicEDT3D/dynamicEDT3DTargets-release.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/include/dynamicEDT3D/bucketedqueue.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/dynamicEDT3D/bucketedqueue.hxx
+-- Installing: /home/rfly/UAV-simulator/devel/include/dynamicEDT3D/dynamicEDT3D.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/dynamicEDT3D/dynamicEDTOctomap.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/dynamicEDT3D/dynamicEDTOctomap.hxx
+-- Installing: /home/rfly/UAV-simulator/devel/include/dynamicEDT3D/point.h
+-- Installing: /home/rfly/UAV-simulator/devel/share/dynamic_edt_3d/package.xml
+-- Installing: /home/rfly/UAV-simulator/devel/share/ament_index/resource_index/packages/dynamicEDT3D
+-- Installing: /home/rfly/UAV-simulator/devel/share/dynamicEDT3D/dynamicEDT3DConfig.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/share/dynamicEDT3D/dynamicEDT3DConfig-version.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/lib/pkgconfig/dynamicEDT3D.pc
+-- Installing: /home/rfly/UAV-simulator/devel/lib/libdynamicedt3d.so.1.9.8
+-- Installing: /home/rfly/UAV-simulator/devel/lib/libdynamicedt3d.so.1.9
+-- Set runtime path of "/home/rfly/UAV-simulator/devel/lib/libdynamicedt3d.so.1.9.8" to "/home/rfly/UAV-simulator/devel/lib"
+-- Installing: /home/rfly/UAV-simulator/devel/lib/libdynamicedt3d.so
+-- Installing: /home/rfly/UAV-simulator/devel/lib/libdynamicedt3d.a
+-- Installing: /home/rfly/UAV-simulator/devel/share/dynamicEDT3D/dynamicEDT3DTargets.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/share/dynamicEDT3D/dynamicEDT3DTargets-release.cmake

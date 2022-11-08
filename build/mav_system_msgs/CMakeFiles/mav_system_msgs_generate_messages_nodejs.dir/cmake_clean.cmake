@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/mav_system_msgs/share/gennodejs/ros/mav_system_msgs/msg/CpuInfo.js"
-  "/home/rfly/UAV/devel/.private/mav_system_msgs/share/gennodejs/ros/mav_system_msgs/msg/ProcessInfo.js"
+  "/home/rfly/UAV-simulator/devel/.private/mav_system_msgs/share/gennodejs/ros/mav_system_msgs/msg/CpuInfo.js"
+  "/home/rfly/UAV-simulator/devel/.private/mav_system_msgs/share/gennodejs/ros/mav_system_msgs/msg/ProcessInfo.js"
   "CMakeFiles/mav_system_msgs_generate_messages_nodejs"
 )
 

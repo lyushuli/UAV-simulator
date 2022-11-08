@@ -57,10 +57,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/catkin_simple
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/catkin_simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/catkin_simple
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/catkin_simple
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/catkin_simple/CMakeFiles /home/rfly/UAV/build/catkin_simple//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/catkin_simple/CMakeFiles /home/rfly/UAV-simulator/build/catkin_simple//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/catkin_simple/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/catkin_simple/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

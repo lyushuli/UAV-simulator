@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/lib/liboctomap.a"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomap.a"
 )

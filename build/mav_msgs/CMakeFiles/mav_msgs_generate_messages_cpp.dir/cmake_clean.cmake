@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/Actuators.h"
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h"
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/FilteredSensorData.h"
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/GpsWaypoint.h"
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h"
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h"
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/Status.h"
-  "/home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/Actuators.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/FilteredSensorData.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/GpsWaypoint.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/Status.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h"
   "CMakeFiles/mav_msgs_generate_messages_cpp"
 )
 

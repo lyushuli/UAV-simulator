@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/mav_system_msgs/include/mav_system_msgs/CpuInfo.h"
-  "/home/rfly/UAV/devel/.private/mav_system_msgs/include/mav_system_msgs/ProcessInfo.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_system_msgs/include/mav_system_msgs/CpuInfo.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_system_msgs/include/mav_system_msgs/ProcessInfo.h"
   "CMakeFiles/mav_system_msgs_generate_messages_cpp"
 )
 

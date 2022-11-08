@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/rfly/UAV/devel/.private/octomap_ros/lib;/home/rfly/UAV/devel/.private/rotors_control/lib;/opt/ros/noetic/lib")
+set(ORDERED_PATHS "/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib;/home/rfly/UAV-simulator/devel/.private/rotors_control/lib;/opt/ros/noetic/lib")

@@ -1,7 +1,7 @@
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: \
- /home/rfly/UAV/build/rotors_gazebo_plugins/PointStamped.pb.cc \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PointStamped.pb.cc \
  /usr/include/stdc-predef.h \
- /home/rfly/UAV/build/rotors_gazebo_plugins/PointStamped.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PointStamped.pb.h \
  /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -247,8 +247,8 @@ CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: \
  /usr/include/google/protobuf/message.h \
  /usr/include/google/protobuf/descriptor.h \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/9/cassert \
- /home/rfly/UAV/build/rotors_gazebo_plugins/Header.pb.h \
- /home/rfly/UAV/build/rotors_gazebo_plugins/Point.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Header.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Point.pb.h \
  /usr/include/google/protobuf/generated_message_reflection.h \
  /usr/include/google/protobuf/generated_enum_reflection.h \
  /usr/include/google/protobuf/reflection_ops.h \

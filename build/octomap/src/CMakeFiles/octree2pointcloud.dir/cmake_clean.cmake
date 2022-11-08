@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/octree2pointcloud"
-  "/home/rfly/UAV/src/octomap/octomap/bin/octree2pointcloud.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/octree2pointcloud"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/octree2pointcloud.pdb"
   "CMakeFiles/octree2pointcloud.dir/octree2pointcloud.cpp.o"
   "CMakeFiles/octree2pointcloud.dir/octree2pointcloud.cpp.o.d"
 )

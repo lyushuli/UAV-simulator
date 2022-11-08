@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/manifest.l"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/msg/Octomap.l"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/msg/OctomapWithPose.l"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/srv/BoundingBoxQuery.l"
-  "/home/rfly/UAV/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/srv/GetOctomap.l"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/manifest.l"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/msg/Octomap.l"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/msg/OctomapWithPose.l"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/srv/BoundingBoxQuery.l"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/srv/GetOctomap.l"
   "CMakeFiles/octomap_msgs_generate_messages_eus"
 )
 

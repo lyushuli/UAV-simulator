@@ -1,2 +1,2 @@
 mav_comm/mav_comm
-/home/rfly/UAV/devel/.private/mav_comm/cmake.lock /home/rfly/UAV/devel/./cmake.lock
+/home/rfly/UAV-simulator/devel/.private/mav_comm/cmake.lock /home/rfly/UAV-simulator/devel/./cmake.lock

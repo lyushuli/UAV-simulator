@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/dynamicEDT3D/bin/exampleEDT3D"
-  "/home/rfly/UAV/src/octomap/dynamicEDT3D/bin/exampleEDT3D.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/bin/exampleEDT3D"
+  "/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/bin/exampleEDT3D.pdb"
   "CMakeFiles/exampleEDT3D.dir/exampleEDT3D.cpp.o"
   "CMakeFiles/exampleEDT3D.dir/exampleEDT3D.cpp.o.d"
 )

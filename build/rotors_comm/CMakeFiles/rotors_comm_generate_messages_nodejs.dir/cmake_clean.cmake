@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/msg/WindSpeed.js"
-  "/home/rfly/UAV/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/Octomap.js"
-  "/home/rfly/UAV/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/RecordRosbag.js"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/msg/WindSpeed.js"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/Octomap.js"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/RecordRosbag.js"
   "CMakeFiles/rotors_comm_generate_messages_nodejs"
 )
 

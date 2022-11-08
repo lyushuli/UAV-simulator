@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/mav_system_msgs/share/common-lisp/ros/mav_system_msgs/msg/CpuInfo.lisp"
-  "/home/rfly/UAV/devel/.private/mav_system_msgs/share/common-lisp/ros/mav_system_msgs/msg/ProcessInfo.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/mav_system_msgs/share/common-lisp/ros/mav_system_msgs/msg/CpuInfo.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/mav_system_msgs/share/common-lisp/ros/mav_system_msgs/msg/ProcessInfo.lisp"
   "CMakeFiles/mav_system_msgs_generate_messages_lisp"
 )
 

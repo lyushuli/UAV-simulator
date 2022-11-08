@@ -1,6 +1,6 @@
-Symlinking /home/rfly/UAV/devel/lib/rotors_gazebo/waypoint_publisher
-Symlinking /home/rfly/UAV/devel/lib/rotors_gazebo/waypoint_publisher_file
-Symlinking /home/rfly/UAV/devel/lib/rotors_gazebo/hovering_example
-Symlinking /home/rfly/UAV/devel/lib/pkgconfig/rotors_gazebo.pc
-Symlinking /home/rfly/UAV/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
-Symlinking /home/rfly/UAV/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_gazebo/waypoint_publisher
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_gazebo/waypoint_publisher_file
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_gazebo/hovering_example
+Symlinking /home/rfly/UAV-simulator/devel/lib/pkgconfig/rotors_gazebo.pc
+Symlinking /home/rfly/UAV-simulator/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
+Symlinking /home/rfly/UAV-simulator/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake

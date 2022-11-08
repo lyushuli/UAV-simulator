@@ -15,7 +15,7 @@ Not searching for unused variables given on the command line.
 [0m
 [36m--[0m dynamicEDT3D building as Release
 [36m--[0m Found octomap version: 1.9.8
-[36m--[0m octomap libraries: /home/rfly/UAV/devel/lib/liboctomap.so;/home/rfly/UAV/devel/lib/liboctomath.so
+[36m--[0m octomap libraries: /home/rfly/UAV-simulator/devel/lib/liboctomap.so;/home/rfly/UAV-simulator/devel/lib/liboctomath.so
 [36m--[0m Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE)
 [0m
 [0m
@@ -26,4 +26,4 @@ Not searching for unused variables given on the command line.
 
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/rfly/UAV/build/dynamic_edt_3d
+[36m--[0m Build files have been written to: /home/rfly/UAV-simulator/build/dynamic_edt_3d

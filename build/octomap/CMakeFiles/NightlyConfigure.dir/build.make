@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap/octomap
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap/octomap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/octomap
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/octomap
 
 # Utility rule file for NightlyConfigure.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyConfigure.dir/clean:
 .PHONY : CMakeFiles/NightlyConfigure.dir/clean
 
 CMakeFiles/NightlyConfigure.dir/depend:
-	cd /home/rfly/UAV/build/octomap && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/octomap/octomap /home/rfly/UAV/src/octomap/octomap /home/rfly/UAV/build/octomap /home/rfly/UAV/build/octomap /home/rfly/UAV/build/octomap/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/octomap && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/octomap/octomap /home/rfly/UAV-simulator/src/octomap/octomap /home/rfly/UAV-simulator/build/octomap /home/rfly/UAV-simulator/build/octomap /home/rfly/UAV-simulator/build/octomap/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyConfigure.dir/depend
 

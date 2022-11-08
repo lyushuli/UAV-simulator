@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/rfly/UAV/devel/.private/rqt_rotors/setup.sh
+    local-name: /home/rfly/UAV-simulator/devel/.private/rqt_rotors/setup.sh

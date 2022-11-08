@@ -1,7 +1,7 @@
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: \
- /home/rfly/UAV/build/rotors_gazebo_plugins/Twist.pb.cc \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Twist.pb.cc \
  /usr/include/stdc-predef.h \
- /home/rfly/UAV/build/rotors_gazebo_plugins/Twist.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Twist.pb.h \
  /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \

@@ -1,4 +1,4 @@
-prefix=/home/rfly/UAV/install
+prefix=/home/rfly/UAV-simulator/install
 
 Name: glog_catkin
 Description: Description of glog_catkin

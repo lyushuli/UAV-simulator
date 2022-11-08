@@ -1,6 +1,6 @@
-prefix=/home/rfly/UAV/devel
-libdir=/home/rfly/UAV/devel/lib
-includedir=/home/rfly/UAV/devel/include
+prefix=/home/rfly/UAV-simulator/devel
+libdir=/home/rfly/UAV-simulator/devel/lib
+includedir=/home/rfly/UAV-simulator/devel/include
 
 Name: octomap
 Description: octomap

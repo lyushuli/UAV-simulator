@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/mav_comm/mav_system_msgs
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/mav_comm/mav_system_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/mav_system_msgs
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/mav_system_msgs
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -78,6 +78,6 @@ CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/rfly/UAV/build/mav_system_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/mav_comm/mav_system_msgs /home/rfly/UAV/src/mav_comm/mav_system_msgs /home/rfly/UAV/build/mav_system_msgs /home/rfly/UAV/build/mav_system_msgs /home/rfly/UAV/build/mav_system_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/mav_system_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/mav_comm/mav_system_msgs /home/rfly/UAV-simulator/src/mav_comm/mav_system_msgs /home/rfly/UAV-simulator/build/mav_system_msgs /home/rfly/UAV-simulator/build/mav_system_msgs /home/rfly/UAV-simulator/build/mav_system_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

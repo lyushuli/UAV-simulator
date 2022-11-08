@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/RunTaskService.h"
-  "/home/rfly/UAV/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/StartStopTask.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/RunTaskService.h"
+  "/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/include/mav_state_machine_msgs/StartStopTask.h"
   "CMakeFiles/mav_state_machine_msgs_generate_messages_cpp"
 )
 

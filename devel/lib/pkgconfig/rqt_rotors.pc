@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc
+/home/rfly/UAV-simulator/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc

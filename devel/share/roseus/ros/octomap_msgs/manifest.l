@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/manifest.l
+/home/rfly/UAV-simulator/devel/.private/octomap_msgs/share/roseus/ros/octomap_msgs/manifest.l

@@ -1,5 +1,5 @@
 rotors_simulator/rotors_description
-/home/rfly/UAV/devel/.private/rotors_description/cmake.lock /home/rfly/UAV/devel/./cmake.lock
-/home/rfly/UAV/devel/.private/rotors_description/lib/pkgconfig/rotors_description.pc /home/rfly/UAV/devel/lib/pkgconfig/rotors_description.pc
-/home/rfly/UAV/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake /home/rfly/UAV/devel/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake
-/home/rfly/UAV/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig.cmake /home/rfly/UAV/devel/share/rotors_description/cmake/rotors_descriptionConfig.cmake
+/home/rfly/UAV-simulator/devel/.private/rotors_description/cmake.lock /home/rfly/UAV-simulator/devel/./cmake.lock
+/home/rfly/UAV-simulator/devel/.private/rotors_description/lib/pkgconfig/rotors_description.pc /home/rfly/UAV-simulator/devel/lib/pkgconfig/rotors_description.pc
+/home/rfly/UAV-simulator/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake /home/rfly/UAV-simulator/devel/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake
+/home/rfly/UAV-simulator/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig.cmake /home/rfly/UAV-simulator/devel/share/rotors_description/cmake/rotors_descriptionConfig.cmake

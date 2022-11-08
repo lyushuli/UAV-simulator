@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/intersection_example"
-  "/home/rfly/UAV/src/octomap/octomap/bin/intersection_example.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/intersection_example"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/intersection_example.pdb"
   "CMakeFiles/intersection_example.dir/intersection_example.cpp.o"
   "CMakeFiles/intersection_example.dir/intersection_example.cpp.o.d"
 )

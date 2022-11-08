@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/color_tree_histogram"
-  "/home/rfly/UAV/src/octomap/octomap/bin/color_tree_histogram.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/color_tree_histogram"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/color_tree_histogram.pdb"
   "CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.o"
   "CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.o.d"
 )

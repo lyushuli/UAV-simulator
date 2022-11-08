@@ -1,7 +1,7 @@
 CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o: \
- /home/rfly/UAV/src/rotors_simulator/rotors_joy_interface/src/joy.cpp \
+ /home/rfly/UAV-simulator/src/rotors_simulator/rotors_joy_interface/src/joy.cpp \
  /usr/include/stdc-predef.h \
- /home/rfly/UAV/src/rotors_simulator/rotors_joy_interface/include/rotors_joy_interface/joy.h \
+ /home/rfly/UAV-simulator/src/rotors_simulator/rotors_joy_interface/include/rotors_joy_interface/joy.h \
  /opt/ros/noetic/include/geometry_msgs/PoseStamped.h \
  /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
@@ -618,7 +618,7 @@ CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o: \
  /opt/ros/noetic/include/geometry_msgs/Pose.h \
  /opt/ros/noetic/include/geometry_msgs/Point.h \
  /opt/ros/noetic/include/geometry_msgs/Quaternion.h \
- /home/rfly/UAV/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h \
+ /home/rfly/UAV-simulator/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h \
  /opt/ros/noetic/include/geometry_msgs/Vector3.h \
  /opt/ros/noetic/include/ros/ros.h /opt/ros/noetic/include/ros/rate.h \
  /opt/ros/noetic/include/ros/console.h \
@@ -1105,4 +1105,4 @@ CMakeFiles/rotors_joy_interface.dir/src/joy.cpp.o: \
  /opt/ros/noetic/include/ros/param.h /opt/ros/noetic/include/ros/topic.h \
  /opt/ros/noetic/include/ros/node_handle.h \
  /opt/ros/noetic/include/sensor_msgs/Joy.h \
- /home/rfly/UAV/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+ /home/rfly/UAV-simulator/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h

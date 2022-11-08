@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.pdb"
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so"
   "CMakeFiles/rotors_gazebo_odometry_plugin.dir/src/gazebo_odometry_plugin.cpp.o"
   "CMakeFiles/rotors_gazebo_odometry_plugin.dir/src/gazebo_odometry_plugin.cpp.o.d"
 )

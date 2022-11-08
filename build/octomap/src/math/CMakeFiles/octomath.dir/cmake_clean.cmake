@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.pdb"
-  "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.so"
-  "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.so.1.9"
-  "/home/rfly/UAV/src/octomap/octomap/lib/liboctomath.so.1.9.8"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.so"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.so.1.9"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/lib/liboctomath.so.1.9.8"
   "CMakeFiles/octomath.dir/Pose6D.cpp.o"
   "CMakeFiles/octomath.dir/Pose6D.cpp.o.d"
   "CMakeFiles/octomath.dir/Quaternion.cpp.o"

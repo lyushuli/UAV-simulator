@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Doctomap_EXPORTS
 
-CXX_INCLUDES = -I/home/rfly/UAV/src/octomap/octomap/include
+CXX_INCLUDES = -I/home/rfly/UAV-simulator/src/octomap/octomap/include
 
 CXX_FLAGS =  -Wall -Werror -Wextra -Wpedantic -O3 -funroll-loops -DNDEBUG -fPIC   -fPIC
 

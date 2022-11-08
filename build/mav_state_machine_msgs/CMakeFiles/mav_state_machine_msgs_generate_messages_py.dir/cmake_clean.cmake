@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/msg/_StartStopTask.py"
-  "/home/rfly/UAV/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/msg/__init__.py"
-  "/home/rfly/UAV/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/srv/_RunTaskService.py"
-  "/home/rfly/UAV/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/srv/__init__.py"
+  "/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/msg/_StartStopTask.py"
+  "/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/msg/__init__.py"
+  "/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/srv/_RunTaskService.py"
+  "/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/lib/python3/dist-packages/mav_state_machine_msgs/srv/__init__.py"
   "CMakeFiles/mav_state_machine_msgs_generate_messages_py"
 )
 

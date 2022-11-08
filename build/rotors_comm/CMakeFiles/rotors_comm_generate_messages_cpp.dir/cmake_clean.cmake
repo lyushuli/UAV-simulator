@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_comm/include/rotors_comm/Octomap.h"
-  "/home/rfly/UAV/devel/.private/rotors_comm/include/rotors_comm/RecordRosbag.h"
-  "/home/rfly/UAV/devel/.private/rotors_comm/include/rotors_comm/WindSpeed.h"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/include/rotors_comm/Octomap.h"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/include/rotors_comm/RecordRosbag.h"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/include/rotors_comm/WindSpeed.h"
   "CMakeFiles/rotors_comm_generate_messages_cpp"
 )
 

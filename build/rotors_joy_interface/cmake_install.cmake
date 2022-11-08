@@ -1,8 +1,8 @@
-# Install script for directory: /home/rfly/UAV/src/rotors_simulator/rotors_joy_interface
+# Install script for directory: /home/rfly/UAV-simulator/src/rotors_simulator/rotors_joy_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV-simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -54,98 +54,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/_setup_util.py")
+   "/home/rfly/UAV-simulator/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE PROGRAM FILES "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/_setup_util.py")
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE PROGRAM FILES "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/env.sh")
+   "/home/rfly/UAV-simulator/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE PROGRAM FILES "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/env.sh")
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE PROGRAM FILES "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/setup.bash;/home/rfly/UAV/install/local_setup.bash")
+   "/home/rfly/UAV-simulator/install/setup.bash;/home/rfly/UAV-simulator/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/setup.bash"
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/local_setup.bash"
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/setup.bash"
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/setup.sh;/home/rfly/UAV/install/local_setup.sh")
+   "/home/rfly/UAV-simulator/install/setup.sh;/home/rfly/UAV-simulator/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/setup.sh"
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/local_setup.sh"
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/setup.sh"
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/setup.zsh;/home/rfly/UAV/install/local_setup.zsh")
+   "/home/rfly/UAV-simulator/install/setup.zsh;/home/rfly/UAV-simulator/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/setup.zsh"
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/local_setup.zsh"
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/setup.zsh"
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/rfly/UAV/install/.rosinstall")
+   "/home/rfly/UAV-simulator/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/rfly/UAV/install" TYPE FILE FILES "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/.rosinstall")
+  file(INSTALL DESTINATION "/home/rfly/UAV-simulator/install" TYPE FILE FILES "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/rotors_joy_interface.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/rotors_joy_interface.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_joy_interface/cmake" TYPE FILE FILES
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/rotors_joy_interfaceConfig.cmake"
-    "/home/rfly/UAV/build/rotors_joy_interface/catkin_generated/installspace/rotors_joy_interfaceConfig-version.cmake"
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/rotors_joy_interfaceConfig.cmake"
+    "/home/rfly/UAV-simulator/build/rotors_joy_interface/catkin_generated/installspace/rotors_joy_interfaceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_joy_interface" TYPE FILE FILES "/home/rfly/UAV/src/rotors_simulator/rotors_joy_interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_joy_interface" TYPE FILE FILES "/home/rfly/UAV-simulator/src/rotors_simulator/rotors_joy_interface/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -155,7 +155,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_joy_interface/rotors_joy_interface"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_joy_interface" TYPE EXECUTABLE FILES "/home/rfly/UAV/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_joy_interface" TYPE EXECUTABLE FILES "/home/rfly/UAV-simulator/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_joy_interface/rotors_joy_interface" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rotors_joy_interface/rotors_joy_interface")
     file(RPATH_CHANGE
@@ -170,7 +170,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rfly/UAV/build/rotors_joy_interface/gtest/cmake_install.cmake")
+  include("/home/rfly/UAV-simulator/build/rotors_joy_interface/gtest/cmake_install.cmake")
 
 endif()
 
@@ -182,5 +182,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rfly/UAV/build/rotors_joy_interface/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rfly/UAV-simulator/build/rotors_joy_interface/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

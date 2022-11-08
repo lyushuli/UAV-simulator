@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.pdb"
-  "/home/rfly/UAV/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so"
   "CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o"
   "CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o.d"
 )

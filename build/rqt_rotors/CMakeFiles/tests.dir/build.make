@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/rotors_simulator/rqt_rotors
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/rotors_simulator/rqt_rotors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/rqt_rotors
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/rqt_rotors
 
 # Utility rule file for tests.
 
@@ -78,6 +78,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/rfly/UAV/build/rqt_rotors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/rotors_simulator/rqt_rotors /home/rfly/UAV/src/rotors_simulator/rqt_rotors /home/rfly/UAV/build/rqt_rotors /home/rfly/UAV/build/rqt_rotors /home/rfly/UAV/build/rqt_rotors/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/rqt_rotors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/rotors_simulator/rqt_rotors /home/rfly/UAV-simulator/src/rotors_simulator/rqt_rotors /home/rfly/UAV-simulator/build/rqt_rotors /home/rfly/UAV-simulator/build/rqt_rotors /home/rfly/UAV-simulator/build/rqt_rotors/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

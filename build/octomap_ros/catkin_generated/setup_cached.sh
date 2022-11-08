@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/rfly/UAV/devel/.private/octomap_ros:$CMAKE_PREFIX_PATH"
-export PWD='/home/rfly/UAV/build/octomap_ros'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/rfly/UAV/devel/.private/octomap_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/rfly/UAV/src/octomap_ros:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/rfly/UAV-simulator/devel/.private/octomap_ros:$CMAKE_PREFIX_PATH"
+export PWD='/home/rfly/UAV-simulator/build/octomap_ros'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/rfly/UAV-simulator/devel/.private/octomap_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/rfly/UAV-simulator/src/octomap_ros:$ROS_PACKAGE_PATH"

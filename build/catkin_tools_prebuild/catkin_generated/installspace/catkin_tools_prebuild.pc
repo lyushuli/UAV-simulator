@@ -1,4 +1,4 @@
-prefix=/home/rfly/UAV/install
+prefix=/home/rfly/UAV-simulator/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

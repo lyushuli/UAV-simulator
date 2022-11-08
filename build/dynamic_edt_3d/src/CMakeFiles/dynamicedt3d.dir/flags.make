@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Ddynamicedt3d_EXPORTS
 
-CXX_INCLUDES = -I/home/rfly/UAV/src/octomap/dynamicEDT3D/include -isystem /home/rfly/UAV/devel/include
+CXX_INCLUDES = -I/home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/include -isystem /home/rfly/UAV-simulator/devel/include
 
 CXX_FLAGS =  -Wall -Wno-error  -O3 -funroll-loops -DNDEBUG -fPIC   -fPIC
 

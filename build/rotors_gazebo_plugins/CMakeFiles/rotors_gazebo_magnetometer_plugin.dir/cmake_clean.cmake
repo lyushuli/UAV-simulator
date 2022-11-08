@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.pdb"
-  "/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so"
   "CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/src/gazebo_magnetometer_plugin.cpp.o"
   "CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/src/gazebo_magnetometer_plugin.cpp.o.d"
 )

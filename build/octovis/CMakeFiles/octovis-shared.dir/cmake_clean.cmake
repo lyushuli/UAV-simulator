@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octovis/lib/liboctovis.pdb"
-  "/home/rfly/UAV/src/octomap/octovis/lib/liboctovis.so"
-  "/home/rfly/UAV/src/octomap/octovis/lib/liboctovis.so.1.9"
-  "/home/rfly/UAV/src/octomap/octovis/lib/liboctovis.so.1.9.8"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/lib/liboctovis.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/lib/liboctovis.so"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/lib/liboctovis.so.1.9"
+  "/home/rfly/UAV-simulator/src/octomap/octovis/lib/liboctovis.so.1.9.8"
   "CMakeFiles/octovis-shared.dir/src/ColorOcTreeDrawer.cpp.o"
   "CMakeFiles/octovis-shared.dir/src/ColorOcTreeDrawer.cpp.o.d"
   "CMakeFiles/octovis-shared.dir/src/OcTreeDrawer.cpp.o"

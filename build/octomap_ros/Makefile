@@ -57,10 +57,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap_ros
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/octomap_ros
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/octomap_ros
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/octomap_ros/CMakeFiles /home/rfly/UAV/build/octomap_ros//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/octomap_ros/CMakeFiles /home/rfly/UAV-simulator/build/octomap_ros//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/octomap_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/octomap_ros/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

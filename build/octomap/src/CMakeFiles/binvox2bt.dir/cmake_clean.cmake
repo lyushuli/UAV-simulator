@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/binvox2bt"
-  "/home/rfly/UAV/src/octomap/octomap/bin/binvox2bt.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/binvox2bt"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/binvox2bt.pdb"
   "CMakeFiles/binvox2bt.dir/binvox2bt.cpp.o"
   "CMakeFiles/binvox2bt.dir/binvox2bt.cpp.o.d"
 )

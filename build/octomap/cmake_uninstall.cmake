@@ -1,11 +1,11 @@
 # Ignore empty list items.
 cmake_policy(SET CMP0007 OLD)
 
-if (NOT EXISTS "/home/rfly/UAV/build/octomap/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/rfly/UAV/build/octomap/install_manifest.txt\"")
-endif(NOT EXISTS "/home/rfly/UAV/build/octomap/install_manifest.txt")
+if (NOT EXISTS "/home/rfly/UAV-simulator/build/octomap/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/rfly/UAV-simulator/build/octomap/install_manifest.txt\"")
+endif(NOT EXISTS "/home/rfly/UAV-simulator/build/octomap/install_manifest.txt")
 
-file(READ "/home/rfly/UAV/build/octomap/install_manifest.txt" files)
+file(READ "/home/rfly/UAV-simulator/build/octomap/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 list(REVERSE files)
 foreach (file ${files})

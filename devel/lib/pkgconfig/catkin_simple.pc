@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/catkin_simple/lib/pkgconfig/catkin_simple.pc
+/home/rfly/UAV-simulator/devel/.private/catkin_simple/lib/pkgconfig/catkin_simple.pc

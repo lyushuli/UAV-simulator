@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rfly/UAV/src/rotors_simulator/rotors_control/src/nodes/lee_position_controller_node.cpp" "CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o" "gcc" "CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o.d"
+  "/home/rfly/UAV-simulator/src/rotors_simulator/rotors_control/src/nodes/lee_position_controller_node.cpp" "CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o" "gcc" "CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rfly/UAV/build/rotors_control/CMakeFiles/lee_position_controller.dir/DependInfo.cmake"
+  "/home/rfly/UAV-simulator/build/rotors_control/CMakeFiles/lee_position_controller.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

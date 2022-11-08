@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a CMakeFiles/dynamicedt3d-static.dir/dynamicEDT3D.cpp.o
-/usr/bin/ranlib /home/rfly/UAV/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a
+/usr/bin/ar qc /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a CMakeFiles/dynamicedt3d-static.dir/dynamicEDT3D.cpp.o
+/usr/bin/ranlib /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/lib/libdynamicedt3d.a

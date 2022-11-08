@@ -1,4 +1,4 @@
-prefix=/home/rfly/UAV/devel/.private/glog_catkin
+prefix=/home/rfly/UAV-simulator/devel/.private/glog_catkin
 
 Name: glog_catkin
 Description: Description of glog_catkin

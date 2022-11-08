@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rotors_gazebo_plugins/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig-version.cmake
+/home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig-version.cmake

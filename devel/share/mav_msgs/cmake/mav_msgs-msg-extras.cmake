@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/mav_msgs/share/mav_msgs/cmake/mav_msgs-msg-extras.cmake
+/home/rfly/UAV-simulator/devel/.private/mav_msgs/share/mav_msgs/cmake/mav_msgs-msg-extras.cmake

@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig-version.cmake
+/home/rfly/UAV-simulator/devel/.private/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig-version.cmake

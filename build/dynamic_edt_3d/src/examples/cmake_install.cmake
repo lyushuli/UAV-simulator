@@ -1,8 +1,8 @@
-# Install script for directory: /home/rfly/UAV/src/octomap/dynamicEDT3D/src/examples
+# Install script for directory: /home/rfly/UAV-simulator/src/octomap/dynamicEDT3D/src/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV/devel")
+  set(CMAKE_INSTALL_PREFIX "/home/rfly/UAV-simulator/devel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

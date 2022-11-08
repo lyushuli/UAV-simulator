@@ -1,8 +1,8 @@
-Symlinking /home/rfly/UAV/devel/lib/python3/dist-packages/rosbag_tools/__init__.py
-Symlinking /home/rfly/UAV/devel/lib/pkgconfig/rotors_evaluation.pc
-Symlinking /home/rfly/UAV/devel/lib/rotors_evaluation/hovering_eval.py
-Symlinking /home/rfly/UAV/devel/lib/rotors_evaluation/cmake.lock
-Symlinking /home/rfly/UAV/devel/lib/rotors_evaluation/disturbance_eval.py
-Symlinking /home/rfly/UAV/devel/lib/rotors_evaluation/waypoints_eval.py
-Symlinking /home/rfly/UAV/devel/share/rotors_evaluation/cmake/rotors_evaluationConfig-version.cmake
-Symlinking /home/rfly/UAV/devel/share/rotors_evaluation/cmake/rotors_evaluationConfig.cmake
+Symlinking /home/rfly/UAV-simulator/devel/lib/python3/dist-packages/rosbag_tools/__init__.py
+Symlinking /home/rfly/UAV-simulator/devel/lib/pkgconfig/rotors_evaluation.pc
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_evaluation/hovering_eval.py
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_evaluation/cmake.lock
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_evaluation/disturbance_eval.py
+Symlinking /home/rfly/UAV-simulator/devel/lib/rotors_evaluation/waypoints_eval.py
+Symlinking /home/rfly/UAV-simulator/devel/share/rotors_evaluation/cmake/rotors_evaluationConfig-version.cmake
+Symlinking /home/rfly/UAV-simulator/devel/share/rotors_evaluation/cmake/rotors_evaluationConfig.cmake

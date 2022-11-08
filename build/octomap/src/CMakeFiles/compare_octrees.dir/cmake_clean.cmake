@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/compare_octrees"
-  "/home/rfly/UAV/src/octomap/octomap/bin/compare_octrees.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/compare_octrees"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/compare_octrees.pdb"
   "CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o"
   "CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o.d"
 )

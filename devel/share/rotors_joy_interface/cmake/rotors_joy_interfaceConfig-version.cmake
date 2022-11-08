@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
+/home/rfly/UAV-simulator/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake

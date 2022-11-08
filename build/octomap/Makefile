@@ -57,10 +57,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap/octomap
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap/octomap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/octomap
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/octomap
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/opt/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/rfly/UAV/build/octomap/CPackSourceConfig.cmake
+	/opt/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/rfly/UAV-simulator/build/octomap/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,9 +162,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/octomap/CMakeFiles /home/rfly/UAV/build/octomap//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/octomap/CMakeFiles /home/rfly/UAV-simulator/build/octomap//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV/build/octomap/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rfly/UAV-simulator/build/octomap/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/normals_example"
-  "/home/rfly/UAV/src/octomap/octomap/bin/normals_example.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/normals_example"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/normals_example.pdb"
   "CMakeFiles/normals_example.dir/normals_example.cpp.o"
   "CMakeFiles/normals_example.dir/normals_example.cpp.o.d"
 )

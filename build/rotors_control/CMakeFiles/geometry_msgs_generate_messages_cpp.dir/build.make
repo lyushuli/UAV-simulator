@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/rotors_simulator/rotors_control
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/rotors_simulator/rotors_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/rotors_control
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/rotors_control
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -78,6 +78,6 @@ CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/rfly/UAV/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/rotors_simulator/rotors_control /home/rfly/UAV/src/rotors_simulator/rotors_control /home/rfly/UAV/build/rotors_control /home/rfly/UAV/build/rotors_control /home/rfly/UAV/build/rotors_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/rotors_simulator/rotors_control /home/rfly/UAV-simulator/src/rotors_simulator/rotors_control /home/rfly/UAV-simulator/build/rotors_control /home/rfly/UAV-simulator/build/rotors_control /home/rfly/UAV-simulator/build/rotors_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

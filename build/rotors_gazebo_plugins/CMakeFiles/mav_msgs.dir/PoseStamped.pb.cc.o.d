@@ -1,7 +1,7 @@
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: \
- /home/rfly/UAV/build/rotors_gazebo_plugins/PoseStamped.pb.cc \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseStamped.pb.cc \
  /usr/include/stdc-predef.h \
- /home/rfly/UAV/build/rotors_gazebo_plugins/PoseStamped.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/PoseStamped.pb.h \
  /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -247,7 +247,7 @@ CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: \
  /usr/include/google/protobuf/message.h \
  /usr/include/google/protobuf/descriptor.h \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/9/cassert \
- /home/rfly/UAV/build/rotors_gazebo_plugins/Header.pb.h \
+ /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/Header.pb.h \
  /usr/include/gazebo-11/gazebo/msgs/pose.pb.h \
  /usr/include/gazebo-11/gazebo/msgs/vector3d.pb.h \
  /usr/include/boost/shared_ptr.hpp \

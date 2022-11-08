@@ -36,11 +36,11 @@ Not searching for unused variables given on the command line.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 [0m
 [36m--[0m Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-[36m--[0m QGLViewer includes found in /home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer
-[36m--[0m QGLViewer found in /home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so
+[36m--[0m QGLViewer includes found in /home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer
+[36m--[0m QGLViewer found in /home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer/libQGLViewer.so
 --
 
 [36m--[0m viewer octovis will be built
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/rfly/UAV/build/octovis
+[36m--[0m Build files have been written to: /home/rfly/UAV-simulator/build/octovis

@@ -1,5 +1,5 @@
--I/home/rfly/UAV/devel/include
--I/home/rfly/UAV/src/octomap/octovis/include
+-I/home/rfly/UAV-simulator/devel/include
+-I/home/rfly/UAV-simulator/src/octomap/octovis/include
 -I/usr/include/x86_64-linux-gnu/qt5/
 -I/usr/include/x86_64-linux-gnu/qt5/QtCore
 -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
@@ -22,7 +22,7 @@
 -I/usr/include/x86_64-linux-gnu/qt5/QtXml
 -I/usr/include/x86_64-linux-gnu/qt5/QtCore
 -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
--I/home/rfly/UAV/src/octomap/octovis/src/extern/QGLViewer
+-I/home/rfly/UAV-simulator/src/octomap/octovis/src/extern/QGLViewer
 -o
-/home/rfly/UAV/build/octovis/include/octovis/moc_ViewerSettings.cpp
-/home/rfly/UAV/src/octomap/octovis/include/octovis/ViewerSettings.h
+/home/rfly/UAV-simulator/build/octovis/include/octovis/moc_ViewerSettings.cpp
+/home/rfly/UAV-simulator/src/octomap/octovis/include/octovis/ViewerSettings.h

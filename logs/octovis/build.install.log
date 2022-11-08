@@ -6,23 +6,23 @@
 [100%] Built target octovis
 [36mInstall the project...[0m
 -- Install configuration: "Release"
--- Installing: /home/rfly/UAV/devel/bin/octovis
--- Set runtime path of "/home/rfly/UAV/devel/bin/octovis" to "/home/rfly/UAV/devel/lib"
--- Installing: /home/rfly/UAV/devel/lib/liboctovis.a
--- Installing: /home/rfly/UAV/devel/lib/liboctovis.so.1.9.8
--- Installing: /home/rfly/UAV/devel/lib/liboctovis.so.1.9
--- Set runtime path of "/home/rfly/UAV/devel/lib/liboctovis.so.1.9.8" to "/home/rfly/UAV/devel/lib"
--- Installing: /home/rfly/UAV/devel/lib/liboctovis.so
--- Installing: /home/rfly/UAV/devel/share/octovis/octovis-targets.cmake
--- Installing: /home/rfly/UAV/devel/share/octovis/octovis-targets-release.cmake
--- Installing: /home/rfly/UAV/devel/include/octovis/ColorOcTreeDrawer.h
--- Installing: /home/rfly/UAV/devel/include/octovis/OcTreeDrawer.h
--- Installing: /home/rfly/UAV/devel/include/octovis/OcTreeRecord.h
--- Installing: /home/rfly/UAV/devel/include/octovis/PointcloudDrawer.h
--- Installing: /home/rfly/UAV/devel/include/octovis/SceneObject.h
--- Installing: /home/rfly/UAV/devel/include/octovis/SelectionBox.h
--- Installing: /home/rfly/UAV/devel/include/octovis/TrajectoryDrawer.h
--- Installing: /home/rfly/UAV/devel/share/octovis/octovis-config.cmake
--- Installing: /home/rfly/UAV/devel/share/octovis/octovis-config-version.cmake
--- Installing: /home/rfly/UAV/devel/share/octovis/package.xml
--- Installing: /home/rfly/UAV/devel/share/ament_index/resource_index/packages/octovis
+-- Installing: /home/rfly/UAV-simulator/devel/bin/octovis
+-- Set runtime path of "/home/rfly/UAV-simulator/devel/bin/octovis" to "/home/rfly/UAV-simulator/devel/lib"
+-- Installing: /home/rfly/UAV-simulator/devel/lib/liboctovis.a
+-- Installing: /home/rfly/UAV-simulator/devel/lib/liboctovis.so.1.9.8
+-- Installing: /home/rfly/UAV-simulator/devel/lib/liboctovis.so.1.9
+-- Set runtime path of "/home/rfly/UAV-simulator/devel/lib/liboctovis.so.1.9.8" to "/home/rfly/UAV-simulator/devel/lib"
+-- Installing: /home/rfly/UAV-simulator/devel/lib/liboctovis.so
+-- Installing: /home/rfly/UAV-simulator/devel/share/octovis/octovis-targets.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/share/octovis/octovis-targets-release.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/include/octovis/ColorOcTreeDrawer.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/octovis/OcTreeDrawer.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/octovis/OcTreeRecord.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/octovis/PointcloudDrawer.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/octovis/SceneObject.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/octovis/SelectionBox.h
+-- Installing: /home/rfly/UAV-simulator/devel/include/octovis/TrajectoryDrawer.h
+-- Installing: /home/rfly/UAV-simulator/devel/share/octovis/octovis-config.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/share/octovis/octovis-config-version.cmake
+-- Installing: /home/rfly/UAV-simulator/devel/share/octovis/package.xml
+-- Installing: /home/rfly/UAV-simulator/devel/share/ament_index/resource_index/packages/octovis

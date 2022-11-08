@@ -1,8 +1,8 @@
-prefix=/home/rfly/UAV/devel/.private/octomap_ros
+prefix=/home/rfly/UAV-simulator/devel/.private/octomap_ros
 
 Name: octomap_ros
 Description: Description of octomap_ros
 Version: 0.4.1
-Cflags: -I/home/rfly/UAV/src/octomap_ros/include -I/home/rfly/UAV/devel/include
-Libs: -L${prefix}/lib -loctomap_ros /home/rfly/UAV/devel/lib/liboctomap.so /home/rfly/UAV/devel/lib/liboctomath.so
+Cflags: -I/home/rfly/UAV-simulator/src/octomap_ros/include -I/home/rfly/UAV-simulator/devel/include
+Libs: -L${prefix}/lib -loctomap_ros /home/rfly/UAV-simulator/devel/lib/liboctomap.so /home/rfly/UAV-simulator/devel/lib/liboctomath.so
 Requires: octomap_msgs sensor_msgs tf

@@ -22,7 +22,7 @@ Not searching for unused variables given on the command line.
 [36m--[0m BUILD_OCTOMAP_PLUGIN variable not provided, setting to FALSE.
 [36m--[0m BUILD_OPTICAL_FLOW_PLUGIN variable not provided, setting to FALSE.
 [36m--[0m NO_ROS variable not provided, setting to FALSE.
-[36m--[0m CMAKE_BINARY_DIR = /home/rfly/UAV/build/rotors_gazebo_plugins
+[36m--[0m CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/rotors_gazebo_plugins
 [33mCMake Warning (dev) at /opt/cmake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
   The package name passed to `find_package_handle_standard_args` (MAVLink)
   does not match the name of the calling package (mavlink).  This can lead to
@@ -39,9 +39,9 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 [36m--[0m BUILD_OCTOMAP_PLUGIN = FALSE, NOT building gazebo_octomap_plugin.
 [36m--[0m BUILD_OPTICAL_FLOW_PLUGIN = FALSE, NOT building gazebo_optical_flow_plugin.
 [36m--[0m NO_ROS = FALSE, building rotors_gazebo_plugins WITH ROS dependancies.
-[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/rfly/UAV/devel/.private/rotors_gazebo_plugins
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/rfly/UAV/devel;/opt/ros/noetic
-[36m--[0m This workspace overlays: /home/rfly/UAV/devel;/opt/ros/noetic
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/rfly/UAV-simulator/devel/.private/rotors_gazebo_plugins
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/rfly/UAV-simulator/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/rfly/UAV-simulator/devel;/opt/ros/noetic
 [36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
 [36m--[0m Using Debian Python package layout
@@ -49,7 +49,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 [36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
 [36m--[0m Using CATKIN_ENABLE_TESTING: ON
 [36m--[0m Call enable_testing()
-[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/rfly/UAV/build/rotors_gazebo_plugins/test_results
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/rfly/UAV-simulator/build/rotors_gazebo_plugins/test_results
 [36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
 [36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
 [36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
@@ -83,7 +83,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 [36m--[0m catkin 0.8.10
 [36m--[0m BUILD_SHARED_LIBS is on
 [36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
-[36m--[0m CMAKE_BINARY_DIR = /home/rfly/UAV/build/rotors_gazebo_plugins
+[36m--[0m CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/rotors_gazebo_plugins
 [36m--[0m Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
 [36m--[0m Checking for module 'eigen3'
 [36m--[0m   Found eigen3, version 3.3.7
@@ -192,7 +192,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 [36m--[0m GAZEBO 11.10.2
 --
 [36m--[0m BUILD_MAVLINK_INTERFACE_PLUGIN = FALSE, NOT adding mavros dependency and NOT building mavlink_interface_plugin.
-[36m--[0m CMAKE_INSTALL_PREFIX = /home/rfly/UAV/install
+[36m--[0m CMAKE_INSTALL_PREFIX = /home/rfly/UAV-simulator/install
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/rfly/UAV/build/rotors_gazebo_plugins
+[36m--[0m Build files have been written to: /home/rfly/UAV-simulator/build/rotors_gazebo_plugins

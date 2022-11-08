@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/rfly/UAV/devel/.private/rotors_joy_interface/setup.sh
+    local-name: /home/rfly/UAV-simulator/devel/.private/rotors_joy_interface/setup.sh

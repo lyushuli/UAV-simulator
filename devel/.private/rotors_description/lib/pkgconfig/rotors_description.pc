@@ -1,4 +1,4 @@
-prefix=/home/rfly/UAV/devel/.private/rotors_description
+prefix=/home/rfly/UAV-simulator/devel/.private/rotors_description
 
 Name: rotors_description
 Description: Description of rotors_description

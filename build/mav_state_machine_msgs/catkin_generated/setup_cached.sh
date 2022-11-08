@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/rfly/UAV/devel/.private/mav_state_machine_msgs:$CMAKE_PREFIX_PATH"
-export PWD='/home/rfly/UAV/build/mav_state_machine_msgs'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/rfly/UAV/devel/.private/mav_state_machine_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/rfly/UAV/src/mav_comm/mav_state_machine_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs:$CMAKE_PREFIX_PATH"
+export PWD='/home/rfly/UAV-simulator/build/mav_state_machine_msgs'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/rfly/UAV-simulator/src/mav_comm/mav_state_machine_msgs:$ROS_PACKAGE_PATH"

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/rotors_comm/share/common-lisp/ros/rotors_comm/msg/WindSpeed.lisp"
-  "/home/rfly/UAV/devel/.private/rotors_comm/share/common-lisp/ros/rotors_comm/srv/Octomap.lisp"
-  "/home/rfly/UAV/devel/.private/rotors_comm/share/common-lisp/ros/rotors_comm/srv/RecordRosbag.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/share/common-lisp/ros/rotors_comm/msg/WindSpeed.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/share/common-lisp/ros/rotors_comm/srv/Octomap.lisp"
+  "/home/rfly/UAV-simulator/devel/.private/rotors_comm/share/common-lisp/ros/rotors_comm/srv/RecordRosbag.lisp"
   "CMakeFiles/rotors_comm_generate_messages_lisp"
 )
 

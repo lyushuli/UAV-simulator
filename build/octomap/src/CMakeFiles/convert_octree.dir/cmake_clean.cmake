@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/src/octomap/octomap/bin/convert_octree"
-  "/home/rfly/UAV/src/octomap/octomap/bin/convert_octree.pdb"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/convert_octree"
+  "/home/rfly/UAV-simulator/src/octomap/octomap/bin/convert_octree.pdb"
   "CMakeFiles/convert_octree.dir/convert_octree.cpp.o"
   "CMakeFiles/convert_octree.dir/convert_octree.cpp.o.d"
 )

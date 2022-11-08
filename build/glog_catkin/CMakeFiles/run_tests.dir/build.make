@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/glog_catkin
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/glog_catkin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/glog_catkin
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/glog_catkin
 
 # Utility rule file for run_tests.
 
@@ -78,6 +78,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/rfly/UAV/build/glog_catkin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/glog_catkin /home/rfly/UAV/src/glog_catkin /home/rfly/UAV/build/glog_catkin /home/rfly/UAV/build/glog_catkin /home/rfly/UAV/build/glog_catkin/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/glog_catkin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/glog_catkin /home/rfly/UAV-simulator/src/glog_catkin /home/rfly/UAV-simulator/build/glog_catkin /home/rfly/UAV-simulator/build/glog_catkin /home/rfly/UAV-simulator/build/glog_catkin/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

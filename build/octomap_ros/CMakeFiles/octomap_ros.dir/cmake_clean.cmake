@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rfly/UAV/devel/.private/octomap_ros/lib/liboctomap_ros.pdb"
-  "/home/rfly/UAV/devel/.private/octomap_ros/lib/liboctomap_ros.so"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib/liboctomap_ros.pdb"
+  "/home/rfly/UAV-simulator/devel/.private/octomap_ros/lib/liboctomap_ros.so"
   "CMakeFiles/octomap_ros.dir/src/conversions.cpp.o"
   "CMakeFiles/octomap_ros.dir/src/conversions.cpp.o.d"
 )

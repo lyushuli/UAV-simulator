@@ -1,7 +1,7 @@
 CMakeFiles/octovis.dir/src/ViewerSettings.cpp.o: \
- /home/rfly/UAV/src/octomap/octovis/src/ViewerSettings.cpp \
+ /home/rfly/UAV-simulator/src/octomap/octovis/src/ViewerSettings.cpp \
  /usr/include/stdc-predef.h \
- /home/rfly/UAV/src/octomap/octovis/include/octovis/ViewerSettings.h \
+ /home/rfly/UAV-simulator/src/octomap/octovis/include/octovis/ViewerSettings.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
  /usr/include/c++/9/type_traits \
@@ -266,7 +266,7 @@ CMakeFiles/octovis.dir/src/ViewerSettings.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/rfly/UAV/build/octovis/ui_ViewerSettings.h \
+ /home/rfly/UAV-simulator/build/octovis/ui_ViewerSettings.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \

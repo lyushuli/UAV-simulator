@@ -1,6 +1,6 @@
-Symlinking /home/rfly/UAV/devel/lib/python3/dist-packages/rqt_rotors/__init__.py
-Symlinking /home/rfly/UAV/devel/lib/pkgconfig/rqt_rotors.pc
-Symlinking /home/rfly/UAV/devel/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake
-Symlinking /home/rfly/UAV/devel/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake
-Symlinking /home/rfly/UAV/devel/bin/cmake.lock
-Symlinking /home/rfly/UAV/devel/bin/hil_plugin
+Symlinking /home/rfly/UAV-simulator/devel/lib/python3/dist-packages/rqt_rotors/__init__.py
+Symlinking /home/rfly/UAV-simulator/devel/lib/pkgconfig/rqt_rotors.pc
+Symlinking /home/rfly/UAV-simulator/devel/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake
+Symlinking /home/rfly/UAV-simulator/devel/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake
+Symlinking /home/rfly/UAV-simulator/devel/bin/cmake.lock
+Symlinking /home/rfly/UAV-simulator/devel/bin/hil_plugin

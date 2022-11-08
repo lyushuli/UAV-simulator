@@ -1,1 +1,1 @@
-/home/rfly/UAV/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l
+/home/rfly/UAV-simulator/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l

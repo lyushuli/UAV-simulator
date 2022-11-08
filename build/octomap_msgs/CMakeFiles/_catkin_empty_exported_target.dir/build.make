@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rfly/UAV/src/octomap_msgs
+CMAKE_SOURCE_DIR = /home/rfly/UAV-simulator/src/octomap_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rfly/UAV/build/octomap_msgs
+CMAKE_BINARY_DIR = /home/rfly/UAV-simulator/build/octomap_msgs
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -78,6 +78,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/rfly/UAV/build/octomap_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV/src/octomap_msgs /home/rfly/UAV/src/octomap_msgs /home/rfly/UAV/build/octomap_msgs /home/rfly/UAV/build/octomap_msgs /home/rfly/UAV/build/octomap_msgs/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rfly/UAV-simulator/build/octomap_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rfly/UAV-simulator/src/octomap_msgs /home/rfly/UAV-simulator/src/octomap_msgs /home/rfly/UAV-simulator/build/octomap_msgs /home/rfly/UAV-simulator/build/octomap_msgs /home/rfly/UAV-simulator/build/octomap_msgs/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 
